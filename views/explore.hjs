@@ -1,0 +1,62 @@
+<div class="explore">
+    <div class="exploreHeader">
+        <div class="headerShop" id="peopleleiste" style="border-right-width: 0px;"> <div class="sublink"><button  class="button2" onclick="peopleClicked()" type="button" style="background-color: transparent; left: 0px; top:5px;"></button>People</div> </div>
+        <div class="headerShop" id="showroomleiste" style="border-right-width: 0px;"> <div class="sublink"><button  class="button2" onclick="showroomClicked()" type="button" style="background-color: transparent; left: 0px; top:5px;"></button>Showrooms</div> </div>
+        <div class="headerShop" id="rewardsleiste"> <div class="sublink"><button  class="button2" onclick="rewardsClicked()" type="button" style="background-color: transparent; left: 0px; top:5px;"></button>Rewards</div> </div>
+        <div class="headerShop" id="shopleiste" style="border-left-width: 0px;"> <div class="sublink"><button  class="button2" onclick="shopClicked()" type="button" style="background-color: transparent; left: 0px; top:5px;"></button>Shop</div> </div> 
+    </div>
+</div>  
+<div class="exploreHeaderBackground2"></div>
+<div class="exploreHeaderBackground"></div>
+
+<div class="middleContent">
+    
+    <div  style=" top: 0px; width: 100%; height: 100%; position: absolute; overflow: scroll; background-color: transparent;">
+
+    <div style="float: left; background-color: transparent; height: 70%; width: 100%; position: relative; top: 17.5%;">
+        
+        
+        
+        <div class="border" style=" overflow: hidden; float: left; position: relative; width:67%; height:22%;">
+            <div class="scrollTopSchrift" style="font-size: 30px; margin-top: -20px; top: 50%;">SHOWROOMS</div>
+            <button  class="button3" onclick="showroomClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button> 
+        </div>
+        
+        <div class="border" style="overflow: hidden; float: right; position: relative; width:32%; height:50%; margin-left:  1%; ">
+            <div class="scrollTopSchrift" style="font-size: 30px; margin-top: -80px; top: 50%;">S<br>H<br>O<br>P</div>  
+            <button  class="button3" onclick="shopClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        </div>
+        
+        <div class="border" style=" overflow: hidden; float: left; position: relative; width:27%; height:59%; margin-top: 1%; ">
+            <div class="scrollTopSchrift" style="font-size: 30px; margin-top: -115px; top: 50%;"> P<br>E<br>O<br>P<br>L<br>E</div>  
+            <button  class="button3" onclick="peopleClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        </div>
+        
+        <div class="border" style=" overflow: hidden; float: left; position: relative; width:39%; height:27%; margin-left: 1%; margin-top: 1%; ">
+            <div class="scrollTopSchrift" style="font-size: 30px; margin-top: -20px; top: 50%;">NEUIGKEITEN</div>
+           <button  class="button3" onclick="feedClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        </div>
+        
+        <div class="border" style="overflow: hidden; float: left; position: relative; width:51%; height:31%; margin-left: 1%; margin-top: 1%;">
+            <div class="scrollTopSchrift" style="font-size: 30px; margin-top: -20px; top: 50%;">REWARDS</div>
+            <button  class="button3" onclick="rewardsClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        </div>
+        
+        <div class="border" style=" overflow: hidden; float: left; position: relative; width:20%; height:31%; margin-left: 1%; margin-top: 1%;">
+           <div class="scrollTopSchrift" style="font-size: 20px; margin-top: -17px; top: 50%;">MUSIK</div>
+            <button  class="button3" onclick="playPause()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        </div>
+        
+        <div class="border" style="overflow: hidden; float: left; position: relative; width:100%; height: 15%; margin-left: 0%; margin-top: 1%;">
+            <div class="scrollTopSchrift" style="font-size: 30px; margin-top: -20px; top: 50%;"> ENTDECKE SHORTCUTS</div>
+            <button  class="button3" onclick="openexploreTour()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        </div>
+        
+    </div>
+</div>
+
+<script>
+    shopArtikel();
+</scri
+</div>
+

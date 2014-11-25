@@ -1,0 +1,1016 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.explore{
+    
+    width:670px;
+    height:35px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: transparent;
+    z-index: 19;
+}
+
+.exploreHeader{
+    width:670px;
+    height: 35px;
+    position: fixed;
+    z-index:11;
+    top: 60px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+
+.exploreHeaderBackground{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    margin: 0 auto;
+    background-color: white;
+    opacity: 0.98;
+    z-index:3;
+    top: 45px;
+}
+.exploreHeaderBackground2{
+    width: 60%;
+    margin-left: -30%;
+    left: 50%;
+    height: 60px;
+    position: fixed;
+    background-color: white;
+    opacity: 0.96;
+    z-index:10;
+    top: 45px;
+    //box-shadow: 0px 0px 8px #000000;
+}
+
+.headerShop{
+    background-color: white;
+    position: relative;
+    
+    height: 30px;
+    width: 24.7%;
+    float: left;
+    color: #585858;
+    font-family: muli;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 45px;
+    text-align: center;
+    border-style: inset;
+    border-bottom-width: 0px;
+    border-color: #585858;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+
+.sublink{
+    position: relative;
+    top: -8px;
+    width:100%;
+    
+}
+
+.button2{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline:0 !important;
+    cursor: url(/images/elements/herzCursor2.gif), pointer;
+    z-index: 25;
+}
+
+.button3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline:0 !important;
+    cursor: url(/images/elements/herzCursor2.gif), pointer;
+    z-index: 22;
+    left: 0px; w
+    top:0px; 
+    
+}
+
+.filtericon{
+    width: 9%;
+    //width: 200px;
+    //height: 200px;
+    margin-top: 20px;
+    z-index: 30;
+    position: fixed;
+    top: 17%;
+    left: 0.4%;
+    background-color: transparent;   
+}
+
+.musicicon{
+    width: 9%;
+    //width: 200px;
+    //height: 200px;
+    margin-top: 20px;
+    z-index: 30;
+    position: fixed;
+    top: 17%;
+    left: 0.5%;
+    background-color: transparent;
+    
+}
+
+.warenkorbicon{
+    width: 9%;
+    
+    margin-top: 20px;
+    z-index: 30;
+    position: fixed;
+    top: 17%;
+    right: 11.7%;  
+}
+.closeticon{
+    width: 9%;
+    z-index: 30;
+    position: fixed;
+    margin-top: 20px;
+    top: 17%;
+    left: 11.7%;
+}
+.nachrichtenicon{
+    
+    width: 9%;
+    margin-top: 20px;
+    z-index: 30;
+    position: fixed;
+    top: 17%;
+    right: 0.4%;
+}
+
+.logouticon{
+    width: 3%;
+    position: fixed;
+    top:55px;
+    right: 1%;
+    z-index: 30;   
+}
+.dropicon{
+    width: 3%;  
+    z-index: 30;
+    position: fixed;
+    top:3px;
+    right: 5%;
+}
+.pause{
+    width: 20%;
+    height: 20%;
+}
+
+.filter{
+    height: 100%;
+    position: fixed;
+    top: 39%;
+    left: 0.5%;
+    text-align: center;
+    width: 20.14%;
+    height: 60%;
+    overflow: scroll;
+    z-index: 21;
+    
+}
+.filterBackground{
+    background-image: url('/images/elements/filterBackground.png');
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0.6;
+    text-align: center;
+   // z-index: 20;
+    
+    
+}
+.warenkorbBackground{
+    background-image: url('/images/elements/warenkorbBackground.png');
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0.8;
+    text-align: center;
+        
+}
+.warenkorb{    
+    height: 100%;
+    position: fixed;
+    top: 39%;
+    right: 0.5%;
+    text-align: center;
+    width: 20.14%;
+    height: 60%;
+    overflow: scroll;  
+}
+
+.close{
+    width: 35px;
+    height: 35px;;
+    top: 10%;
+    right: 20px;
+    position: absolute;
+    
+}
+
+.popup{
+    position: fixed;
+    top:161px;
+    right: 50%;
+    margin-right: -335px;
+    background-color: transparent;
+    width: 670px;
+    height: 430px;
+    z-index: 9;
+    text-align: center;
+    
+}
+
+.drop{
+    position: fixed;
+    top:55px;
+    right: 10px;
+    background-color: transparent;
+    height: 50px;
+    z-index: 51;
+    text-align: center;
+    
+}
+
+.closet{
+     
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    top: 39%;
+    left: 0.5%;
+    text-align: center;
+    width: 20.14%;
+    height: 60%;
+    overflow: scroll;
+    
+}
+
+.closetBackground{
+    background-image: url('/images/elements/closetBackground.png');
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100%;
+    opacity: 0.6;
+}
+
+
+.nachricht{
+    
+    text-align: center;
+    height: 100%;
+    opacity: 0.95;
+    overflow: scroll;
+    position: fixed;
+    top: 39%;
+    right: 0.5%;
+    width: 20.14%;
+    height: 60%;
+    
+}
+
+.nachrichtBackground{
+    background-image: url('/images/elements/nachrichtBackground.png');
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    opacity: 0.4;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+.theSoundYouNeed{
+    width: 3%;
+    position: fixed;
+    top:55px;
+    right: 5%;
+    z-index: 30;
+}
+.menuBalken{
+    width: 100%;
+    height: 10%;
+    background-image: url('elemente/menuBalken.png');
+    background-size: cover;
+    background-color: transparent;
+    
+    position: fixed;
+    top:105px;
+    z-index: 10;
+    
+    
+}
+.cover{
+    background-size: cover;
+    background-size: 100% ;
+    background-color: white;
+    z-index: 1; 
+    width:100%;
+    height: 230px;
+    position: relative; 
+    opacity: 1; 
+    
+    margin-top: 17.5%;
+    overflow: visible;
+}
+.imgpeople{
+    
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    background-size: 100%;
+    background-repeat: no-repeat;  
+    z-index: 9;
+    //border-bottom-left-radius: 3px;
+    //border-top-left-radius: 3px;
+   
+}
+.imgpeopleProfil{
+    margin-left: -14.376%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    
+   
+}
+.imgpeopleChat{
+
+    height: 100%;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    z-index: 9;
+    background-position: right;
+}
+.imgpeopleKontakt{
+
+    height: 100%;
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    z-index: 9;
+    background-position: left;
+}
+
+.people{   
+    background-color: rgba(0, 0, 0, 0.03);
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin-top: 10%;
+    z-index: 21;
+    left: 0;
+    overflow: hidden;
+}
+div.people:hover{
+     background-color: rgba(0, 0, 0, 0.07);
+}
+.profilHeader{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-top: 2%;
+    z-index: 21;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+  
+    border:2px solid grey;  
+}
+.coverMenu{
+    background-color: white;
+    width: 100%;
+    height: 160px;
+    position: relative;
+    margin-top: 20px;
+    z-index: 21;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+.peopleSchrift{
+    color: #585858;
+    font-size: 25px;
+    font-family: muli;
+    z-index: 9;
+    margin: 4%;
+    position: absolute;
+    left: 30%;
+    overflow: hidden;
+    
+}
+.profilSchriftPeople{
+    color: #585858;
+    font-size: 25px;
+    font-family: muli;
+    z-index: 9;
+    margin-top: 2px;
+    position: relative;
+    left: 0px;
+    text-align: center;
+    
+}
+.peopleSchriftKlein{
+    color: #585858;
+    font-size: 15px;
+    font-family: muli;
+    z-index: 9;
+    margin-left: 20px;
+    margin-top: 50px;
+    position: absolute;
+    left: 220px;
+    
+}
+
+.peopleFollower{
+    background-image: url('/images/elements/followerSw.png');
+    background-size: cover;
+    background-size: 100%;
+    width: 30px;
+    height: 30px; 
+    position: absolute;
+    float: right;
+    right: 10%;;
+    top: 74%;
+    
+}
+.peopleFollowerSchrift{
+    color:#333333;
+    font-family: muli;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    margin: 20px;
+    top:55%;
+    left: 255px;
+    z-index: 21;
+}
+
+.einstellungen{
+    width: 3%;
+    position: fixed;
+    top:55px;
+    right: 9%;
+    z-index: 30;
+}
+
+.artikel{
+    position: relative;
+    float: left;
+    margin-top:15%;
+    width: 240px;
+    height: 360px;
+    z-index: 15;
+    background-color: white; 
+    background-position: center; 
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    opacity: 1;
+
+}
+div.artikel:hover{
+   opacity: 0.9;
+}
+.artikelrahmen{
+    opacity: 1;
+    z-index: 22;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    content:url("/images/elements/artikelRahmen.png");
+    cursor: url(/images/elements/herzCursor2.gif), pointer;
+}
+img.artikelrahmen:hover{
+     content:url("/images/elements/artikelRahmen2.png");
+}
+.artikelImg{
+    z-index: 20; 
+    height: auto;
+    width:100%;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+}
+
+.coverSchrift{
+    font-family: DubielPlain;
+    font-size: 130px;
+    opacity: 0.8;
+    position: relative;
+    text-align: center;
+    color:black;
+    z-index: 9;
+    top:70px;
+    
+}
+
+.artikelSchrift{
+    position: relative;
+    font-family: muli;
+    font-size: 12px;
+    top: 255px;
+    margin-left: 5%;
+    color: gray;
+    opacity: 0.9;
+    z-index: 51;
+    text-align: left;    
+}
+.artikelSchriftGroß{
+    position: relative;
+    font-family: muli;
+    font-size: 16px;
+    top: 245px;
+    margin-left: 5%;
+    color: gray;
+    opacity: 0.9;
+    z-index: 51;
+    text-align: left;
+}
+.artikelSchriftShowroom{
+    position: relative;
+    font-family: muli;
+    font-size: 15px;
+    top: 225px;
+    left: 5px;
+    color: gray;
+    opacity: 0.7;
+    z-index: 61;
+    text-align: center;
+    background-color: red;
+        
+}
+
+.artikelSchriftWarenkorb{
+    position: relative;
+    font-family: muli;
+    font-size: 9px;
+    top:67%;
+    z-index: 51;
+    color: gray;
+    opacity: 0.8;
+    margin-left: 5px;
+   // float: left;
+    text-align: center;  
+}
+
+.artikelIconLinks{
+    width:30px;
+    height: 30px;
+    background-image: url('/images/elements/closetKleinB.png');
+    background-size: cover;
+    position: absolute;
+    top: 240px;
+    border-radius: 0px;
+   // background-color: rgba(0, 0, 0, 0.4);
+    left: 160px;
+    z-index: 51;
+}
+.artikelIconRechts{
+    width:30px;
+    height: 30px;
+    background-image: url('/images/elements/warenkorbKleinB.png');
+    background-size: cover;
+    position: absolute;
+    border-radius: 0px;
+    //background-color: rgba(0, 0, 0, 0.4);
+    top: 240px;
+    left: 200px;
+    z-index: 51;
+}
+
+.artikelIconPlus{
+    width:30px;
+    height: 30px;
+    background-image: url('/images/elements/plus.png');
+    background-size: cover;
+    position: absolute;
+    border-radius: 0px;
+    //background-color: rgba(0, 0, 0, 0.4);
+    top: 240px;
+    left: 120px;
+    z-index: 51;
+}
+.artikelIconClosetWarenkorb{
+    width:30%;
+    height: 20%;
+    background-image: url('/images/elements/closetKleinB.png');
+    background-size: cover;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    z-index: 51;
+}
+.artikelIconWarenkorb{
+    width:30%;
+    height: 20%;
+    background-image: url('/images/elements/warenkorbKleinB.png');
+    background-size: cover;
+    position: absolute;
+    top:80%;
+    left: 60%;
+    z-index: 51;
+}
+.artikelIconDeleteWarenkorb{
+    width:30%;
+    height: 20%;
+    background-image: url('/images/elements/deleteE.png');
+    background-size: cover;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    z-index: 51;
+}
+.info{
+    width:20px;
+    height: 20px;
+    background-image: url('Pictures/infoKlein.png');
+    background-size: cover;
+    position: absolute;
+    top: 273px;
+    left: 166px;
+    z-index: 51;
+}
+.infoWarenkorb{
+    width:20px;
+    height: 20px;
+    background-image: url('Pictures/infoKlein.png');
+    background-size: cover;
+    position: absolute;
+    top: 72%;
+    left: 75%;
+    z-index: 51;
+}
+.artikelWarenkorb{
+    position: relative;
+    float: left;
+    margin:1%;
+    margin-top: 20%;
+    width: 48%;
+    background-color: white;
+    opacity: 1;
+    z-index: 15;  
+}
+div.artikelWarenkorb:hover{
+   opacity: 0.9;
+}
+.warenkorbSumme{
+    font-family: muli;
+    font-size: 15px;
+    color: #585858;
+    position: relative;
+    margin: 5%;    
+    margin-top: 5%;
+    
+}
+.rahmen{
+    margin: 0 auto;
+    background-color: transparent;
+    position: relative;
+    width: 99%;
+    height: 100%;
+    top: -5%
+}
+.scrollsauber{
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    position: relative;
+    float: left;
+}
+.chat{
+    position: relative;
+    margin: 2%;
+    margin-top: 8%;
+    float: top;
+    width: 96%;
+    height: 15%;
+   // background-color: rgba(0, 0, 0, 0.5);
+}
+div.chat:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.kontaktSchrift{
+    left: 25%;
+    width: 75%;
+    position: absolute;
+    color: white;
+    opacity: 0.9;
+    font-family: muli;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -10px;
+    top: 50%;
+    background-color: transparent;
+}
+
+.chatVerlaufSchrift{
+    right: 25%;
+    width: 75%;
+    position: absolute;
+    color: white;
+    opacity: 0.9;box-sizing:border-box;
+    
+    font-family: muli;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -5.5%;
+    top: 50%;
+    background-color: transparent;
+}
+.border{
+   border-radius: 0px;
+   background-color: rgba(0, 0, 0, 0.03);
+    
+}
+div.border:hover{
+   background-color: rgba(0, 0, 0, 0.07);
+}
+.borderWhite{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+  
+    border:2px solid white;
+}
+.scrollTopSchrift{
+    background-color: transparent; 
+    width: 440px;
+    position: relative; 
+    left: 50%;
+    margin-left: -220px ;
+    color:#585858;font-size: 35px;
+    font-weight:normal;
+    text-align: center;
+    
+}
+.back{
+    position: fixed;
+    top:57px;
+    left: 12%;
+    z-index: 53;
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    background-image: url('/images/elements/back.png');
+    background-size: cover;   
+}
+
+.artikelDetail{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 23;
+    overflow-y: scroll;
+    overflow-x: visible;
+    position: absolute;
+    
+}
+.artikelDetailImg{
+    width: 350px;
+    height: 525px;
+    position: absolute;
+    margin-left: -175px;
+    left: 50%;
+    top: 100px;
+    
+    float: left;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: #333333;
+    
+}
+.artikelDetailImgRechts{
+    position: relative;
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    float: right;
+    top: 250px;
+    margin-right: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: #333333;
+}
+
+.artikelDetailImgLinks{
+    position: relative;
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
+    float: left;
+    top: 250px;
+    margin-left: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: #333333;
+}
+
+.detailUberschrift{
+    position: relative;
+    top: 25px;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    //background-color: #f5f2f2;
+    text-align: center;
+    z-index: 23;
+    font-size: 40px;
+    font-family: muli;
+    color: grey;
+    
+}
+.detailVor{
+    position: relative;
+    float: right;
+    margin-right: 2%;
+    top: 306px;
+    width: 40px;
+    height: 40px;
+    background-image: url('/images/elements/vor.png');
+    background-size: contain;
+}
+.detailZuruck{
+    position: relative;
+    float: left;
+    margin-left: 2%;
+    top: 306px;
+    width: 40px;
+    height: 40px;
+    background-image: url('/images/elements/zuruck.png');
+    background-size: contain;
+}
+.artikelDrop{
+    float: right;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.dropSchrift{
+    color: white;
+    opacity: 0.9;
+    font-family: muli;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;  
+    top: 50%;
+    margin-top: -12px;
+    background-color: transparent;
+    position: relative;
+}
+.detailAuswahl{
+    background-color: rgba(0, 0, 0, 0.2);
+    float: left;
+    width: 40%;
+    height: 30px;
+    position: relative;
+    left: 0%;
+    top: 35%;
+    margin-left: 3%;
+}
+.detailAuswahlIcon{
+    float: left;
+    height: 100%;
+    position: relative;
+}
+.hinzufugen{
+    width: 200px;
+    height: 25px;
+    position: relative;
+    top: 85%;
+    left: 2%;
+    text-align: center;
+    background-color: transparent;
+    float: left;
+    
+}
+.hinzufugen2{
+    width: 180px;
+    height: 25px;
+    position: relative;
+    top: 85%;
+    right: 2%;
+    text-align: center;
+    background-color: transparent;
+    float: right;
+    
+}
+.hinzufugenRight{
+    width: 200px;
+    height: 25px;
+    position: relative;
+    top: 75%;
+    left: 33%;
+    text-align: center;
+    background-color: transparent;
+    float: left;
+    
+}
+.hinzufugenSchrift{
+    font-family: muli;
+    font-size: 13px;
+    color: darkslategrey;
+    position: relative;
+    top: 4px;
+}
+
+.anzahlfreunde{
+    font-family: muli;
+    font-size: 13px;
+    color: darkslategrey;
+    position: relative;
+    top: 78%;
+    float: right;
+    right: 5%;
+}
+.showroomE{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    margin-top: 15%;
+}
+div.showroomE:hover{
+    opacity: 0.9;
+}
+.banner{
+    position: absolute;
+    top: -8px;
+    left: 78%;
+    width: 30px;
+    z-index: 23;
+}
+.foto{
+    width: 24%;
+    height: 180px; 
+    background-color: lightblue; 
+    margin: 0.5%;
+    float: left;
+    opacity: 1;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+div.foto:hover{
+    opacity: 0.7;
+}
+
+.fotoDetail{
+    //background-image: url('profil/profilFoto3.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 88%;
+    height: 90%;
+    //background-color: rgba(255, 255, 255, 1);
+    float: left;
+    
+    top: 1%;
+}
+
+.vorZuruckW{
+    position: relative;
+    float: left;
+    width: 5%;
+    background-color: transparent;
+    top: 45%;
+    margin-top: -3%;
+    margin: 0.5%;
+}
+

@@ -1,0 +1,264 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.08.2014, 20:15:55
+    Author     : Vincent 
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: url(/images/elements/herzCursor.gif), pointer;
+}
+
+header{
+    
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 45px;
+    position: fixed;
+    z-index: 10;
+    
+    
+}
+.kopfzeille{
+    
+    width:100px;
+    height: 70px;
+    background-color: transparent;  
+    float: right;
+    text-align: center;
+    
+   
+    
+  
+}
+.logo{
+    background-color:transparent ;
+    float: left;
+    width: 200px;
+    height: 70px;
+    
+}
+.logopos{
+    position: relative;
+    top: -10px;
+}
+.buttonspace{
+    background-color: transparent;
+    float: right;
+    width: 280px;
+    height: 70px;
+    text-align: center;
+    cursor: url(/images/elements/herzCursor2.gif), pointer;
+}
+.link{
+    
+    text-decoration: none;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 45px;
+    text-align: center;
+    color: #424242;
+   cursor: url(/images/elements/herzCursor2.gif), pointer;
+    
+    
+}
+.button{
+    color:white;
+    background-image: url('elemente/button.jpg');
+    background-size: cover;
+    //background-color: #56ddde;  
+    font-family:arial;
+    font-size: 18px;    
+    border-radius: 2px;
+    border: none;
+    cursor: url(/images/elements/herzCursor2.gif), pointer;
+    width:230px;
+    height: 30px;
+    position: relative;
+    top: 9px;
+    
+}
+.großerbutton{
+    color:rgba(0, 0, 0, 0.4);
+    background-color: #79F4E2;  
+    font-family:didot;
+    font-size: 18px;    
+    border-radius: 2px;
+    border: none;
+    cursor: url(/images/elements/herzCursor2.gif), pointer;
+    width:350px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+    
+}
+.uberschrift{
+    background-color:transparent ;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size:60px;
+    color: black;
+    //font-family: Didot;
+   
+    font-family: didot;
+    position: relative;
+    top: 12%;
+    font-weight: normal;
+    
+}
+.kleineüberschrift{
+    background-color: transparent ;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size:28px;
+    color:#424242;
+    font-family: arial;
+    position: relative;
+    top: 7%;
+}
+
+.textüberbild {
+	position: absolute;
+	z-index: 2;       
+	width: 100%;
+        height: 100%;
+        background-color: transparent;
+        top: 0;
+	left: 0;
+}
+.text{
+    //position: absolute;
+    z-index: 2;       
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    
+}
+
+.CoverSection{
+        width: 100%;
+        height: 650px;
+        z-index: 3;
+        background-color: white;
+        text-align: center;
+        font-size: 100px;
+       // background:url(Pictures/indexBackground.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;
+        
+}
+
+.section {
+        width: 100%;
+	height: 500px;
+        z-index: 2;
+        background-image: url('bilder/cover11.jpg');
+        background-size: 100%;
+        //background-position-y: -600px;
+        background-repeat: no-repeat;
+	
+}
+
+.contentSection{
+        width: 100%;
+        height: 550px;
+        z-index: 3;
+        //opacity: 0.5;
+        background-color: white;
+        
+}
+
+.FooterSection{
+        width: 100%;
+        height: 650px;
+        z-index: 3;
+        //opacity: 0.5;
+        background-color: white;
+}
+
+.ContentContainer{
+        position: relative;
+        width: 90%;
+        height: 400px;
+        background-color: white;
+        display:table;
+        top: 70px;
+        //opacity: 0.6;
+        //margin-left: -1000px;
+}
+
+.ContentText{
+        font-family: arial;
+        font-size: 20px;
+        
+        height: 100%;
+        display:table-cell;
+        width: 80%;
+        background-color: transparent;
+        text-align: center;
+}
+
+.ContentPic{
+    display:table-cell;
+    height: 100%;
+    
+}
+.platzhaltercontainer{
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    top: 8%;
+}
+
+.startmenu{
+    background-color: transparent;
+    width: 100%;
+    
+    
+    position: fixed;
+    color: black; 
+    z-index: 20;
+    
+}
+
+.headermenu{
+    background-color: transparent; 
+    width: 150px; 
+    height: 45px; 
+    float: left; 
+    background-image:url('/images/indexPictures/headerBackBlack.png');
+    background-size: cover; 
+    background-size: 100% 100%;
+}
+.button3{
+    
+    height: 100%;
+    width:100%;
+    background-color: red;
+    border: none;
+    outline:0 !important;
+    cursor: url(/images/elements/herzCursor2.gif), pointer;
+    z-index: 21;
+   
+   
+    
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='/stylesheets/IPCss.css' type='text/css'/>
+        <link rel='stylesheet' href='/stylesheets/explore.css' type='text/css'/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><!-- no support for old IE -->
+        <script src="/javascripts/structure.js" type="text/javascript"></script>
+        <script src="/javascripts/shop.js" type="text/javascript"></script>
+        <script src="/javascripts/people.js" type="text/javascript"></script>
+        <script src="/javascripts/showroom.js" type="text/javascript"></script>
+        <script src="/javascripts/nachrichten.js" type="text/javascript"></script>
+        <script src="/javascripts/filter.js" type="text/javascript"></script>
+        <link href='http://fonts.googleapis.com/css?family=muli' rel='stylesheet' type='text/css' />
+        
+        <script type="text/javascript" src="/javascripts/jquery-1.8.3.min.js"></script>
+        <script src="/javascripts/jquery.elevatezoom.js" type="text/javascript"></script>
+        
+        
+    </head>
+   
+    <body style="background-color: white; background-image: url('/images/elements/background.jpg'); background-size: 100%;" onresize="setHeight2()" onload="">
+        
+        <div class="logo" style=" z-index: 21; background-color= blue;">
+                <img class="logopos" src="/images/elements/logoarial.png" width="180" alt="logo" style="background-color= blue;">
+        </div>
+        
+       
+        <header>
+            
+            
+            
+            
+            <div class="headerFeed" >
+                
+                <button id="feedIcon" class="button" onclick="feedClicked()" type="button" style="background-color: transparent;">Neuigkeiten</button>
+                
+            </div>
+            
+            <div class="headerExplore" >
+                
+                <button id="exploreIcon" class="button"  onclick="exploreClicked()" type="button" style="">Entdecken</button>
+                
+            </div>
+            
+            <div class="headerYou" >
+                
+                <button id="youIcon" class="button"  onclick="youClicked()" type="button" style="">Profil</button>
+                
+            </div>
+
+             <div id="drop" class="drop"></div>
+             
+        </header>
+        
+        <div class="headerBackground"></div>
+        
+        
+        
+        
+        
+        
+            
+        
+        
+        <div class="dropicon">
+        <img src="/images/elements/drop.png" alt="" id="logout"  style=" width:100%">
+        <button  class="button3" onclick="drop()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        </div>
+       
+        <div class="filtericon" id="filter">
+        <img src="/images/elements/filter.png" alt="" id="filterButton"  style=" width:100%">
+        <button  class="button3" onclick="filterClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        </div>
+        
+        <div class="closeticon">
+        <img src="/images/elements/closet.png" alt="" id="closetButton"  style=" width:100%">
+        <button  class="button3" onclick="closetClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        <div class="benachrichtigung"><div style="margin-top: -8px; top: 50%; position: relative;">3</div></div>
+        </div>
+
+        <div class="warenkorbicon">
+        <img src="/images/elements/warenkorb.png" alt="" id="warenkorbButton"  style=" width:100%">
+        <button  class="button3" onclick="warenkorbClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        <div class="benachrichtigung"><div style="margin-top: -8px; top: 50%; position: relative;">10</div></div>
+        </div>
+        
+        <div class="nachrichtenicon">
+        <img src="/images/elements/nachricht.png" alt="" id="nachrichtenButton"  style=" width:100%">
+        <button  class="button3" onclick="nachrichtClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
+        <div class="benachrichtigung"><div style="margin-top: -8px; top: 50%; position: relative;">5</div></div>
+        </div>
+        
+        
+        
+        
+        
+        <div class="popupLinks" id="popupLinks" onmouseover="disableBodyScroll()" onmouseout="enableBodyScroll()" ></div>               
+        <div class="popupRechts" id="popupRechts" onmouseover="disableBodyScroll()" onmouseout="enableBodyScroll()"></div>
+        
+        <div style="z-index: 10; position: fixed; top: 39%; right:  0.5%; background-image: url('/images/elements/Background.png'); opacity: 0.05; background-repeat: no-repeat; background-size: 100% 100%; width: 20.14%; height: 60%;">
+        </div>
+        <div style="z-index: 10; position: fixed; top: 39%; left:   0.5%; background-image: url('/images/elements/Background.png'); opacity: 0.05; background-repeat: no-repeat; background-size: 100% 100%; width: 20.14%; height: 60%;">
+        </div>
+        
+        <div class="content" id="content">
+            <div class="middleContent" id="middleContent"></div>
+        </div> 
+        
+        <div id="popupMiddle" class="popupMiddle" style="overflow: scroll;"></div>
+       
+        <div style="visibility: hidden; display: none;" id="artikelWarenkorb"></div>
+        <div style="visibility: hidden; display: none;" id="foto"></div>
+        
+        
+        
+        <script>
+            exploreClicked();          
+        </script>
+    </body>
+    
+</html>
