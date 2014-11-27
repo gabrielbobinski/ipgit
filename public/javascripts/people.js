@@ -47,7 +47,7 @@ function openProfilFoto(){
     $(".popupMiddle").load("/html/explore/profilFotoDetail.html");
     document.getElementById('popupMiddle').style.zIndex =20;
     document.getElementById('popupMiddle').style.backgroundColor ="red";
-    document.getElementById('back').style.opacity =0;
+    //document.getElementById('back').style.opacity =0;
 }
 
 function peopleFotoClicked(){
