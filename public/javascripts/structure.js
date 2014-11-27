@@ -166,7 +166,7 @@ function warenkorbClicked(){
         if(wk===1){
            
             //ERROR 1
-            document.getElementById('warenkorbButton').src ="/images/elements/warenkorbVoll.png";
+            //document.getElementById('warenkorbButton').src ="/images/elements/warenkorbVoll.png";
             //document.getElementById('nachrichtenButton').src ="/images/elements/nachricht.png";
             $(".popupRechts").load("/html/warenkorb.html");
             wk=2;
