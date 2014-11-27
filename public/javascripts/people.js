@@ -46,7 +46,7 @@ function peopleMenuClicked(){
 function openProfilFoto(){
     $(".popupMiddle").load("/html/explore/profilFotoDetail.html");
     //document.getElementById('popupMiddle').style.zIndex =20;
-    $('.popupMiddle').css('z-index', 10);
+    $('.popupMiddle').css('z-index', 25);
     document.getElementById('back').style.opacity =0;
 }
 
