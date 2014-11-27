@@ -5,10 +5,11 @@ function filterShopCategoriesFunktion(){
     if(filterShopCategoriesStatus ===0){
         document.getElementById("filterShopCategories").src = "/images/elements/untenW.png";
         filterShopCategoriesStatus =1;
-        document.getElementById("CategoriesShopSubContainer").style.height= "100px";
+        document.getElementById("CategoriesShopSubContainer").style.height= "auto";
     }else{
         document.getElementById("filterShopCategories").src = "/images/elements/vorW.png"; 
         filterShopCategoriesStatus =0;
+        $(".CategoriesShopSubContainer").load("/html/leer.html");
         document.getElementById("CategoriesShopSubContainer").style.height=0;
     }
 }
@@ -19,7 +20,7 @@ function filterShopProductTypeFunktion(){
     if(filterShopProductTypeStatus ===0){
         document.getElementById("filterShopProductType").src = "/images/elements/untenW.png";
         filterShopProductTypeStatus =1;
-        document.getElementById("ProductTypeShopSubContainer").style.height= "100px";
+        document.getElementById("ProductTypeShopSubContainer").style.height= "auto";
     }else{
         document.getElementById("filterShopProductType").src = "/images/elements/vorW.png";
         filterShopProductTypeStatus =0;
@@ -33,7 +34,7 @@ function filterShopDesignerFunktion(){
     if(filterShopDesignerStatus ===0){
         document.getElementById("filterShopDesigner").src = "/images/elements/untenW.png";
         filterShopDesignerStatus =1;
-        document.getElementById("DesignerShopSubContainer").style.height= "100px";
+        document.getElementById("DesignerShopSubContainer").style.height= "auto";
     }else{
         document.getElementById("filterShopDesigner").src = "/images/elements/vorW.png";
         filterShopDesignerStatus =0;
