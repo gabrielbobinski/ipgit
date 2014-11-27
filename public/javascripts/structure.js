@@ -165,8 +165,9 @@ window.addEventListener("load", initAudioPlayer2);
 function warenkorbClicked(){
         if(wk===1){
            
-            document.getElementById('warenkorbButton').src ="/images/elements/warenkorbVoll.png";
-            document.getElementById('nachrichtenButton').src ="/images/elements/nachricht.png";
+            // ERROR 1
+            //document.getElementById('warenkorbButton').src ="/images/elements/warenkorbVoll.png";
+            //document.getElementById('nachrichtenButton').src ="/images/elements/nachricht.png";
             
             
             $(".popupRechts").load("/html/warenkorb.html");
