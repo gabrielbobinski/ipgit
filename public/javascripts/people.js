@@ -22,7 +22,7 @@ function peopleClicked(){
     $(".middleContent").load("/html/explore/peopleMenu.html");
 
     audio.pause();           
-    p=2;
+    //p=2;
   
     filterStatus = 4;
     $(".filterContent").load("/html/filterPeople.html");

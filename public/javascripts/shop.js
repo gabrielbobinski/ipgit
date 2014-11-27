@@ -23,7 +23,7 @@ function shopClicked(){
      $(".popupMiddle").load("/html/leer.html");
      
     audio.pause();           
-    p=1;
+    //p=1;
     
     filterStatus = 1;
     $(".filterContent").load("/html/filterShop.html");

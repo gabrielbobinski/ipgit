@@ -333,7 +333,7 @@ function filterClicked2(){
             fl=2;
             cl=1;  
     }
-    else{}
+    
     
 }
 
