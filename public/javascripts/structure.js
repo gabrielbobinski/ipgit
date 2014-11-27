@@ -186,7 +186,7 @@ function warenkorbClicked(){
             $(".artikelWarenkorb").height(1.5*(document.getElementById('test3').offsetWidth));
     }
     else{
-            document.getElementById('warenkorbButton').src ="/images/elements/warenkorb.png";
+            //document.getElementById('warenkorbButton').src ="/images/elements/warenkorb.png";
             $(".popupRechts").load("/html/leer.html");
             wk=1;
         
