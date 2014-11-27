@@ -114,7 +114,7 @@ and open the template in the editor.
             <div class="middleContent" id="middleContent"></div>
         </div> 
         
-        <div id="popupMiddle" class="popupMiddle" style="overflow: scroll;"></div>
+        <div id="popupMiddle" class="popupMiddle" style="overflow: scroll; z-index:20;"></div>
        
         <div style="visibility: hidden; display: none;" id="artikelWarenkorb"></div>
         <div style="visibility: hidden; display: none;" id="foto"></div>
