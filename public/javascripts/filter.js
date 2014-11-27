@@ -48,7 +48,7 @@ function filterShopSizeFunktion(){
     if(filterShopSizeStatus ===0){
         document.getElementById("filterShopSize").src = "/images/elements/untenW.png";
         filterShopSizeStatus =1;
-        document.getElementById("SizeShopSubContainer").style.height= "100px";
+        document.getElementById("SizeShopSubContainer").style.height= "auto";
     }else{
         document.getElementById("filterShopSize").src = "/images/elements/vorW.png";
         filterShopSizeStatus =0;
