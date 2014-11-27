@@ -51,7 +51,7 @@ function openProfilFoto(){
 }
 
 function peopleFotoClicked(){
-     $(".middleContent").load("/html/explore/profilFotoMenu.html");
+     $(".middleContent").load("/html/explore/shop.html");
 }
 function setHeightFoto(){
     $(".foto").height((document.getElementById('fotoWidth').offsetWidth));
