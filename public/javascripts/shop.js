@@ -54,7 +54,7 @@ function artikelDetail(){
     
 }
 
-function closePopupMiddle(){
+function closePopupMiddleShop(){
     document.getElementById('popupMiddle').style.zIndex =0;
      $(".popupMiddle").load("/html/leer.html");
      document.getElementById('back').style.opacity =1;
