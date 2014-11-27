@@ -43,9 +43,9 @@ function peopleMenuClicked(){
     $(".middleContent").load("/html/explore/people.html");
 }
 function openProfilFoto(){
-    $(".popupMiddle").load("/html/explore/profilFotoDetail.html");
-    document.getElementById('popupMiddle').style.zIndex =20;
-    document.getElementById('back').style.opacity =0;
+    //$(".popupMiddle").load("/html/explore/profilFotoDetail.html");
+    //document.getElementById('popupMiddle').style.zIndex =20;
+    //document.getElementById('back').style.opacity =0;
 }
 function peopleFotoClicked(){
      $(".middleContent").load("/html/explore/profilFotoMenu.html");

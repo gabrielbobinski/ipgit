@@ -165,28 +165,16 @@ window.addEventListener("load", initAudioPlayer2);
 function warenkorbClicked(){
         if(wk===1){
            
-            //ERROR 1
-            //document.getElementById('warenkorbButton').src ="/images/elements/warenkorbVoll.png";
-            //document.getElementById('nachrichtenButton').src ="/images/elements/nachricht.png";
+            document.getElementById('warenkorbButton').src ="/images/elements/warenkorbVoll.png";
+            document.getElementById('nachrichtenButton').src ="/images/elements/nachricht.png";
             $(".popupRechts").load("/html/warenkorb.html");
             wk=2;
             fo=1;
             
-            /*
-             
-             document.getElementById('nachrichtenButton').src ="/images/elements/nachricht2.png";
-             document.getElementById('warenkorbButton').src ="/images/elements/warenkorb.png";
-             $(".popupRechts").load("/html/nachricht.html");
-             fo=2;
-             wk=1;
-             
-             */
-            
-           
             $(".artikelWarenkorb").height(1.5*(document.getElementById('test3').offsetWidth));
     }
     else{
-            //document.getElementById('warenkorbButton').src ="/images/elements/warenkorb.png";
+            document.getElementById('warenkorbButton').src ="/images/elements/warenkorb.png";
             $(".popupRechts").load("/html/leer.html");
             wk=1;
         
