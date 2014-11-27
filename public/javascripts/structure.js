@@ -47,6 +47,8 @@ function feedClicked(){
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     p=1;
+    filterStatus =0;
+    $(".filterContent").load("/html/leer.html");
    
 };
 
@@ -63,6 +65,9 @@ function exploreClicked(){
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     p=1;
+    filterStatus =0;
+    $(".filterContent").load("/html/leer.html");
+
 };
 
 function youClicked(){
@@ -77,6 +82,9 @@ function youClicked(){
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     p=1;
+    filterStatus =0;
+    $(".filterContent").load("/html/leer.html");
+
 };
 
 function rewardsClicked(){
