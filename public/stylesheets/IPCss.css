@@ -154,7 +154,7 @@ header{
     width: 57%;
     height: 100%;
     font-family: muli;
-    background-color: transparent;
+    //background-color: transparent;
     overflow: scroll;
     z-index: 9;   
 }
