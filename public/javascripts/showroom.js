@@ -54,5 +54,4 @@ function showroomProfilClicked(){
     
 function showroomMenu1(){
      $(".middleContent").load("/html/explore/showroom.html");
-    
 }

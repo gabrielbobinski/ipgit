@@ -129,6 +129,7 @@
 
 .warenkorbicon{
     width: 9%;
+    
     margin-top: 20px;
     z-index: 30;
     position: fixed;
@@ -163,7 +164,7 @@
 .dropicon{
     width: 3%;  
     z-index: 30;
-    position: absolute;
+    position: fixed;
     top:3px;
     right: 5%;
 }
@@ -769,10 +770,10 @@ div.border:hover{
     text-align: center;
     
 }
-.zuruck{
+.back{
     position: fixed;
     top:57px;
-    left: 80px;
+    left: 12%;
     z-index: 53;
     width: 38px;
     height: 38px;
