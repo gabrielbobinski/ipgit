@@ -111,7 +111,7 @@ and open the template in the editor.
         </div>
         
         <div class="content" id="content">
-            <div class="middleContent" id="middleContent"></div>
+            <div class="middleContent" id="middleContent" style="background-color: red;"></div>
         </div> 
         
         <div id="popupMiddle" class="popupMiddle" style="overflow: scroll;"></div>
