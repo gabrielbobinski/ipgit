@@ -87,9 +87,8 @@ and open the template in the editor.
         </div>
 
         <div class="warenkorbicon">
-        <button  class="button3" onclick="warenkorbClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;">
-            <img src="/images/elements/warenkorb.png" alt="" id="warenkorbButton"  style=" width:100%">
-        </button>
+        <img src="/images/elements/warenkorb.png" alt="" id="warenkorbButton"  style=" width:100%">
+        <button  class="button3" onclick="warenkorbClicked()" type="button" style="background-color: transparent; left: 0px; top:0px;"></button>
         <div class="benachrichtigung"><div style="margin-top: -8px; top: 50%; position: relative;">10</div></div>
         </div>
         
