@@ -323,7 +323,7 @@ function losClicked(){
 function filterClicked2(){
     if(fl===1){         
             document.getElementById('filterButton').src ="/images/elements/filter2.png";
-            document.getElementById('warenkorbButton').src ="/images/elements/warenkorb.png";
+            document.getElementById('closetButton').src ="/images/elements/closet";
             $(".popupLinks").load("/html/filter.html");
           
             fl=2;
