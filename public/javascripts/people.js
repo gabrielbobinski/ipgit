@@ -22,7 +22,7 @@ function peopleClicked(){
     $(".middleContent").load("/html/explore/peopleMenu.html");
 
     audio.pause();           
-    //p=2;
+    p=2;
   
     filterStatus = 4;
     $(".filterContent").load("/html/filterPeople.html");
@@ -42,14 +42,11 @@ var test1 = (document.getElementById('peopleProfil').offsetWidth);
 function peopleMenuClicked(){
     $(".middleContent").load("/html/explore/people.html");
 }
-
 function openProfilFoto(){
     $(".popupMiddle").load("/html/explore/profilFotoDetail.html");
     document.getElementById('popupMiddle').style.zIndex =20;
-    //$('.popupMiddle').css('z-index', 25);
     document.getElementById('back').style.opacity =0;
 }
-
 function peopleFotoClicked(){
      $(".middleContent").load("/html/explore/profilFotoMenu.html");
 }

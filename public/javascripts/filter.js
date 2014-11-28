@@ -48,7 +48,7 @@ function filterShopSizeFunktion(){
     if(filterShopSizeStatus ===0){
         document.getElementById("filterShopSize").src = "/images/elements/untenW.png";
         filterShopSizeStatus =1;
-        document.getElementById("SizeShopSubContainer").style.height= "auto";
+        document.getElementById("SizeShopSubContainer").style.height= "100px";
     }else{
         document.getElementById("filterShopSize").src = "/images/elements/vorW.png";
         filterShopSizeStatus =0;
@@ -62,7 +62,7 @@ function filterShopColorFunktion(){
     if(filterShopColorStatus ===0){
         document.getElementById("filterShopColor").src = "/images/elements/untenW.png";
         filterShopColorStatus =1;
-        document.getElementById("colorShopSubContainer").style.height= "auto";
+        document.getElementById("colorShopSubContainer").style.height= "100px";
     }else{
         document.getElementById("filterShopColor").src = "/images/elements/vorW.png";
         filterShopColorStatus =0;
@@ -76,7 +76,7 @@ function filterShopPriceFunktion(){
     if(filterShopPriceStatus ===0){
         document.getElementById("filterShopPrice").src = "/images/elements/untenW.png";
         filterShopPriceStatus =1;
-        document.getElementById("PriceShopSubContainer").style.height= "auto";
+        document.getElementById("PriceShopSubContainer").style.height= "100px";
     }else{
         document.getElementById("filterShopPrice").src = "/images/elements/vorW.png";
         filterShopPriceStatus =0;
@@ -90,7 +90,7 @@ function filterShopLocationFunktion(){
     if(filterShopLocationStatus ===0){
         document.getElementById("filterShopLocation").src = "/images/elements/untenW.png";
         filterShopLocationStatus =1;
-        document.getElementById("LocationShopSubContainer").style.height= "auto";
+        document.getElementById("LocationShopSubContainer").style.height= "100px";
     }else{
         document.getElementById("filterShopLocation").src = "/images/elements/vorW.png";
         filterShopLocationStatus =0;

@@ -23,7 +23,7 @@ function shopClicked(){
      $(".popupMiddle").load("/html/leer.html");
      
     audio.pause();           
-    //p=1;
+    p=1;
     
     filterStatus = 1;
     $(".filterContent").load("/html/filterShop.html");
@@ -54,11 +54,11 @@ function artikelDetail(){
     
 }
 
-function closePopupMiddleShop(){
+function closePopupMiddle(){
     document.getElementById('popupMiddle').style.zIndex =0;
      $(".popupMiddle").load("/html/leer.html");
      document.getElementById('back').style.opacity =1;
-     //$(".zoomContainer").width(0);
+     $(".zoomContainer").width(0);
      $(".zoomContainer").height(0);
      
      

@@ -47,8 +47,6 @@ function feedClicked(){
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     p=1;
-    filterStatus =0;
-    $(".filterContent").load("/html/leer.html");
    
 };
 
@@ -65,9 +63,6 @@ function exploreClicked(){
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     p=1;
-    filterStatus =0;
-    $(".filterContent").load("/html/leer.html");
-
 };
 
 function youClicked(){
@@ -82,9 +77,6 @@ function youClicked(){
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     p=1;
-    filterStatus =0;
-    $(".filterContent").load("/html/leer.html");
-
 };
 
 function rewardsClicked(){
@@ -167,10 +159,14 @@ function warenkorbClicked(){
            
             document.getElementById('warenkorbButton').src ="/images/elements/warenkorbVoll.png";
             document.getElementById('nachrichtenButton').src ="/images/elements/nachricht.png";
+            
+            
             $(".popupRechts").load("/html/warenkorb.html");
             wk=2;
             fo=1;
+            rw=1;
             
+           
             $(".artikelWarenkorb").height(1.5*(document.getElementById('test3').offsetWidth));
     }
     else{
@@ -327,13 +323,13 @@ function losClicked(){
 function filterClicked2(){
     if(fl===1){         
             document.getElementById('filterButton').src ="/images/elements/filter2.png";
-            document.getElementById('closetButton').src ="/images/elements/closet.png";
+            document.getElementById('warenkorbButton').src ="/images/elements/warenkorb.png";
             $(".popupLinks").load("/html/filter.html");
           
             fl=2;
             cl=1;  
     }
-    
+    else{}
     
 }
 
@@ -369,8 +365,3 @@ function loadFilterContent(){
     }
 }
 
-function closePopupMiddle(){
-    document.getElementById('popupMiddle').style.zIndex =0;
-    $(".popupMiddle").load("/html/leer.html");
-    document.getElementById('back').style.opacity =1;
-}
