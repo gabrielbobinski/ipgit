@@ -47,6 +47,9 @@ function feedClicked(){
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     p=1;
+    
+    filterStatus = 5;
+    $(".filterContent").load("/html/filterFeed.html");
    
 };
 
@@ -63,6 +66,9 @@ function exploreClicked(){
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     p=1;
+    
+    filterStatus = 6;
+    $(".filterContent").load("/html/filterExplore.html");
 };
 
 function youClicked(){
@@ -77,6 +83,9 @@ function youClicked(){
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     p=1;
+    
+    filterStatus = 7;
+    $(".filterContent").load("/html/filterYou.html");
 };
 
 function rewardsClicked(){
@@ -363,5 +372,16 @@ function loadFilterContent(){
     else if(filterStatus ===4){
         $(".filterContent").load("/html/filterPeople.html");
     }
+    else if(filterStatus ===5){
+        $(".filterContent").load("/html/filterFeed.html");
+    }
+    else if(filterStatus ===6){
+        $(".filterContent").load("/html/filterExplore.html");
+    }
+    else if(filterStatus ===7){
+        $(".filterContent").load("/html/filterYou.html");
+    }
+
+
 }
 
