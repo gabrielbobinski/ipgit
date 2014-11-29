@@ -31,6 +31,7 @@ and open the template in the editor.
         
         <div class="logo" style=" z-index: 21; background-color= blue;">
                 <img class="logopos" src="/images/elements/logoarial.png" width="180" alt="logo" style="background-color= blue;">
+                <button id="exploreIcon" class="button"  onclick="exploreClicked()" type="button" style="">Entdecken</button>
         </div>
         
        
