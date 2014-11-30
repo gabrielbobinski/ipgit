@@ -1,5 +1,5 @@
 
-var filterShopCategoriesStatus = 0;
+var filterShopCategoriesStatus = 6;
 
 function filterShopCategoriesFunktion(){
     if(filterShopCategoriesStatus ===0){
