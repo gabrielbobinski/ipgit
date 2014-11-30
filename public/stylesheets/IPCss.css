@@ -380,9 +380,9 @@ div.schriftPopupWarenkorb:hover{
     border-width: 2px;
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.3);
-    background-image: url('Pictures/suchen.png');
+    background-image: url('/images/elements/suchen.png');
     background-size: contain;
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
 }
 .benachrichtigung{
