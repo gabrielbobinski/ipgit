@@ -984,7 +984,7 @@ div.showroomE:hover{
     opacity: 1;
     position: relative;
     background-position: center;
-    background-size: 100% cover;
+    background-size: cover;
     //margin-top: 5%;
 }
 div.foto:hover{
