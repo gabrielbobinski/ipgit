@@ -976,7 +976,7 @@ div.showroomE:hover{
     z-index: 23;
 }
 .foto{
-    width: 24%;
+    width: 24.5%;
     height: 180px; 
     background-color: lightblue; 
     margin: 0.25%;
@@ -984,7 +984,7 @@ div.showroomE:hover{
     opacity: 1;
     position: relative;
     background-position: center;
-    background-size: cover;
+    background-size: 100% cover;
     //margin-top: 5%;
 }
 div.foto:hover{
