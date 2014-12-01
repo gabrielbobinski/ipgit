@@ -357,7 +357,7 @@ function validateForm() {
         }
       }
 
-var filterStatus = 0;
+var filterStatus = 6;
 
 function loadFilterContent(){
     if(filterStatus ===1){
