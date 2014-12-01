@@ -256,7 +256,7 @@ function closetClicked(){
             document.getElementById('filterButton').src ="/images/elements/filter.png";
             
             $(".popupLinks").load("/html/closet.html");
-            
+            document.getElementById('popupLinks2').style.height ='0%';
             cl=2;
             fl=1;
             
@@ -343,8 +343,8 @@ function filterClicked2(){
     if(fl===1){         
             document.getElementById('filterButton').src ="/images/elements/filter2.png";
             document.getElementById('closetButton').src ="/images/elements/closet.png";
-            $(".popupLinks").load("/html/filter.html");
-          
+            //$(".popupLinks").load("/html/filter.html");
+            document.getElementById('popupLinks2').style.height ='60%';
             fl=2;
             cl=1;  
     }
