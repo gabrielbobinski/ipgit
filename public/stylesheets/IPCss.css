@@ -297,7 +297,7 @@ header{
 }
 
 .popupLinks2{
-    position: absolute;
+    position: fixed;
     top: 39%;
     left: 0.5%;
     background-size: cover;
