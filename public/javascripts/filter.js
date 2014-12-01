@@ -166,3 +166,19 @@ function categoriesNeuFunktion(){
     }
 }
 
+function filterShopSammlung(){
+    filterShopCategoriesFunktion();
+    filterShopProductTypeFunktion();
+    filterShopDesignerFunktion();
+    filterShopSizeFunktion();
+    filterShopColorFunktion();
+    filterShopPriceFunktion();
+    filterShopLocationFunktion();
+    
+    categoriesSaleFunktion();
+    categoriesMenFunktion();
+    categoriesWomenFunktion();
+    categoriesUnikateFunktion();
+    categoriesNeuFunktion();
+
+}

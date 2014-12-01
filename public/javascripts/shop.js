@@ -26,7 +26,8 @@ function shopClicked(){
     p=1;
     
     filterStatus = 1;
-    $(".filterContent").load("/html/filterShop.html");
+    filterShopSammlung();
+    //$(".filterContent").load("/html/filterShop.html");
 };
 
 function coverScrollShop(){
