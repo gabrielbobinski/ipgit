@@ -514,6 +514,9 @@ div.filterKategorie:hover{
    position: relative;
    height: 22px;
    background-color: rgba(0, 0, 0, 0.1);
+   background-image: url('/images/elements/tickKasten.png');
+   background-size: contain;
+   background-position: left;
    left:50%;
    margin-left: -43%;
    margin-top: 3px;
