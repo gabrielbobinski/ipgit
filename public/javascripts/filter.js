@@ -111,7 +111,7 @@ function categoriesSaleFunktion(){
         document.getElementById("sale").style.backgroundImage= "url('/images/elements/tickKastenSelect.png')";
         categoriesSaleStatus = 1;
     }else{
-        document.getElementById("sale").src = "/images/elements/tickKasten.png";
+        document.getElementById("sale").style.backgroundImage = "url('/images/elements/tickKasten.png')";
         categoriesSaleStatus = 0;
     }
 }
