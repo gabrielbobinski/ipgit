@@ -401,3 +401,11 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
 function test(){
     document.getElementById("test1").remove();
 }
+
+function adelete1(){
+    document.getElementById("artikelWarenkorb").remove();
+}
+
+function adelete2(){
+    document.getElementById("artikelWarenkorb1").remove();
+}
