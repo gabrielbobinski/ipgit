@@ -66,5 +66,6 @@ function closePopupMiddle(){
 
 
 function stopZoomContainer(){
-    $(".zoomContainer").height(0);
+   // $(".zoomContainer").height(0);
+    document.getElementById("zoomContainer").remove();
 }
