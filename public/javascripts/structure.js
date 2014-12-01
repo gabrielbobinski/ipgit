@@ -223,7 +223,7 @@ function filterClicked(){
     if(fl===0){
             document.getElementById('filterButton').src ="/images/elements/filter2.png";
             document.getElementById('closetButton').src ="/images/elements/closet.png";
-            $(".popupLinks").load("/html/filter.html");
+            $(".popupLinks2").load("/html/filter.html");
         
             fl=2;
             cl=1;
