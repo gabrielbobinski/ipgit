@@ -117,5 +117,30 @@ function categoriesSaleFunktion(){
 }
 
 
+var categoriesMenStatus = 0;
+
+function categoriesMenFunktion(){
+    if(categoriesMenStatus===0){
+        document.getElementById("men").style.backgroundImage= "url('/images/elements/tickKastenSelect.png')";
+        categoriesMenStatus = 1;
+    }else{
+        document.getElementById("men").style.backgroundImage = "url('/images/elements/tickKasten.png')";
+        categoriesMenStatus = 0;
+    }
+}
+
+var categoriesWomenStatus = 0;
+
+function categoriesWomenFunktion(){
+    if(categoriesWomenStatus===0){
+        document.getElementById("women").style.backgroundImage= "url('/images/elements/tickKastenSelect.png')";
+        categoriesWomenStatus = 1;
+    }else{
+        document.getElementById("women").style.backgroundImage = "url('/images/elements/tickKasten.png')";
+        categoriesWomenStatus = 0;
+    }
+}
+
+
 
 
