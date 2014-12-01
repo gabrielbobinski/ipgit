@@ -129,4 +129,7 @@ and open the template in the editor.
         </script>
     </body>
     
+    <script>
+        $(".popupLinks2").load("/html/filter.html");
+    </script>    
 </html>
