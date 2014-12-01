@@ -166,6 +166,8 @@ function categoriesNeuFunktion(){
     }
 }
 
-
+function clicked(item) {
+    alert($(item).style.height("0"));
+}
 
 
