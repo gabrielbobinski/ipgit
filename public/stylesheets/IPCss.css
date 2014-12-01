@@ -517,7 +517,7 @@ div.filterKategorie:hover{
    background-image: url('/images/elements/tickKasten.png');
    background-size: contain;
    background-position: left;
-   left:50%;
+   background-repeat: no-repeat; 
    margin-left: -43%;
    margin-top: 3px;
    text-align: center;
