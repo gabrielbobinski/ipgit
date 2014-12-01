@@ -101,3 +101,21 @@ function filterShopLocationFunktion(){
 
 
 
+//                      Hier die Tick Funktionen für Categories
+
+
+var categoriesSaleStatus = 0;
+
+function categoriesSaleFunktion(){
+    if(categoriesSaleStatus===0){
+        document.getElementById("sale").style.backgroundImage= url('/images/elements/tickKastenSelect.png');
+        categoriesSaleStatus = 1;
+    }else{
+        document.getElementById("sale").src = "/images/elements/tickKasten.png";
+        categoriesSaleStatus = 0;
+    }
+}
+
+
+
+
