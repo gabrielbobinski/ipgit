@@ -29,7 +29,7 @@ function shopClicked(){
     
     $(".filterContent").load("/html/filterShop.html");
     filterShopSammlung();
-};
+}
 
 function coverScrollShop(){
     $('#shop4').animate({
