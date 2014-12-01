@@ -166,8 +166,9 @@ function categoriesNeuFunktion(){
     }
 }
 
-function clicked(item) {
-   $(item).style.height = 0;
+function reply_click(clicked_id)
+{
+    document.getElementById("clicked_id").style.height= '0px';
 }
 
 
