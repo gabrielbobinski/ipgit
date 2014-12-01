@@ -167,7 +167,7 @@ function categoriesNeuFunktion(){
 }
 
 function clicked(item) {
-   $(item).style.height("0");
+   $(item).style.height = 0;
 }
 
 
