@@ -224,6 +224,7 @@ function filterClicked(){
             document.getElementById('filterButton').src ="/images/elements/filter2.png";
             document.getElementById('closetButton').src ="/images/elements/closet.png";
             $(".popupLinks2").load("/html/filter.html");
+            $(".popupLinks").load("/html/leer.html");
         
             fl=2;
             cl=1;
@@ -232,7 +233,7 @@ function filterClicked(){
             
             document.getElementById('filterButton').src ="/images/elements/filter2.png";
             document.getElementById('closetButton').src ="/images/elements/closet.png";
-            //$(".popupLinks").load("/html/filter.html");
+            $(".popupLinks").load("/html/leer.html");
             document.getElementById('popupLinks2').style.height ='60%';
 
             fl=2;
@@ -241,7 +242,6 @@ function filterClicked(){
     }
     else{
             document.getElementById('filterButton').src ="/images/elements/filter.png";
-            //$(".popupLinks").load("/html/leer.html");
             document.getElementById('popupLinks2').style.height ='0%';
             fl=1;
          
@@ -343,7 +343,7 @@ function filterClicked2(){
     if(fl===1){         
             document.getElementById('filterButton').src ="/images/elements/filter2.png";
             document.getElementById('closetButton').src ="/images/elements/closet.png";
-            //$(".popupLinks").load("/html/filter.html");
+            $(".popupLinks").load("/html/leer.html");
             document.getElementById('popupLinks2').style.height ='60%';
             fl=2;
             cl=1;  
