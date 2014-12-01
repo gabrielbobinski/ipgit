@@ -184,7 +184,7 @@ categoriesNeuStatus = 0;
  */
 
 
-function filterShopSammlung(){
+/*function filterShopSammlung(){
     filterShopCategoriesFunktion();
     filterShopProductTypeFunktion();
     filterShopDesignerFunktion();
@@ -199,4 +199,4 @@ function filterShopSammlung(){
     categoriesUnikateFunktion();
     categoriesNeuFunktion();
 
-}
+}*/
