@@ -251,12 +251,12 @@ function filterClicked(){
 
 function closetClicked(){
         if(cl===1){
-            
+            document.getElementById('popupLinks2').style.height ='0%';
             document.getElementById('closetButton').src ="/images/elements/closet2.png";
             document.getElementById('filterButton').src ="/images/elements/filter.png";
             
             $(".popupLinks").load("/html/closet.html");
-            document.getElementById('popupLinks2').style.height ='0%';
+            
             cl=2;
             fl=1;
             
