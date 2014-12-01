@@ -8,7 +8,7 @@ var actualPage = 0;
 var actualSubPage = 0;
 var p =1;
 var wk = 1;
-var fl = 1;
+var fl = 0;
 var cl = 1;
 var rw=1;
 var fol=1;
@@ -220,19 +220,29 @@ function eraseClickedFilter(){
 
 
 function filterClicked(){
-    if(fl===1){
-            
+    if(fl===0){
             document.getElementById('filterButton').src ="/images/elements/filter2.png";
             document.getElementById('closetButton').src ="/images/elements/closet.png";
             $(".popupLinks").load("/html/filter.html");
-          
+        
+            fl=2;
+            cl=1;
+    }
+    else if(fl===1){
+            
+            document.getElementById('filterButton').src ="/images/elements/filter2.png";
+            document.getElementById('closetButton').src ="/images/elements/closet.png";
+            //$(".popupLinks").load("/html/filter.html");
+            document.getElementById('popupLinks2').style.height ='60%';
+
             fl=2;
             cl=1;
        
     }
     else{
             document.getElementById('filterButton').src ="/images/elements/filter.png";
-            $(".popupLinks").load("/html/leer.html");
+            //$(".popupLinks").load("/html/leer.html");
+            document.getElementById('popupLinks2').style.height ='0%';
             fl=1;
          
     }
