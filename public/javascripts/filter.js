@@ -141,6 +141,31 @@ function categoriesWomenFunktion(){
     }
 }
 
+var categoriesUnikateStatus = 0;
+
+function categoriesUnikateFunktion(){
+    if(categoriesUnikateStatus===0){
+        document.getElementById("unikate").style.backgroundImage= "url('/images/elements/tickKastenSelect.png')";
+        categoriesUnikateStatus = 1;
+    }else{
+        document.getElementById("unikate").style.backgroundImage = "url('/images/elements/tickKasten.png')";
+        categoriesUnikateStatus = 0;
+    }
+}
+
+
+var categoriesNeuStatus = 0;
+
+function categoriesNeuFunktion(){
+    if(categoriesNeuStatus===0){
+        document.getElementById("neu").style.backgroundImage= "url('/images/elements/tickKastenSelect.png')";
+        categoriesNeuStatus = 1;
+    }else{
+        document.getElementById("neu").style.backgroundImage = "url('/images/elements/tickKasten.png')";
+        categoriesNeuStatus = 0;
+    }
+}
+
 
 
 
