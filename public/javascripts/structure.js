@@ -329,7 +329,7 @@ function openexploreTour(){
 }
 
 function losClicked(){
-    $(".content").load("explore/explore.html");
+    $(".content").load("/html/explore/explore.html");
     $(".middleContent").load("/html/leer.html");
     
     los=2;
