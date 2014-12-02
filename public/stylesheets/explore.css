@@ -779,7 +779,7 @@ div.border:hover{
     background-color: white;
     background-image: url('/images/elements/back.png');
     background-size: cover; 
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: rgba(0, 0, 0, 0.04);
 
     //  box-sizing:border-box;
     //-moz-box-sizing:border-box;
@@ -789,7 +789,7 @@ div.border:hover{
     //border-radius: 1000;
 }
 div.back:hover{
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: rgba(0, 0, 0, 0.06);
 }
 
 .artikelDetail{
