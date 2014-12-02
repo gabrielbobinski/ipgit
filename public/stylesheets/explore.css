@@ -784,7 +784,8 @@ div.border:hover{
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
   
-    border:20px solid #424242;  
+    border: 1px solid #424242; 
+    border-radius: 100px; 
 }
 
 .artikelDetail{
