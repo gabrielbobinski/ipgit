@@ -571,8 +571,21 @@ div.filterAuswahl:hover{
     position:relative;
     margin-top: -15px;
     top: 60%;
-    width: 300px;
-    left: 10%;
+    width: 250px;
+    left: 5%;
     padding:2px;
 
+}
+
+.okCloset{
+    font-family: muli;
+    font-size:25px;
+    color: #585858;
+    background-color: rgba(0, 0, 0, 0.2);
+    position:relative;
+    margin-top: -15px;
+    top: 60%;
+    width: 250px;
+    right: 5%;
+    padding:2px;
 }
