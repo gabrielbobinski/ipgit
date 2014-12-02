@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 var peopleStatus =0;
-   
+
+
 function peopleClicked(){
     document.getElementById('shopleiste').style.backgroundColor = "transparent";
     document.getElementById('peopleleiste').style.backgroundColor = "#585858";
@@ -38,35 +39,53 @@ function peopleClicked(){
     
 };
 
+
+
 function peopleZuruck(){
     peopleStatus =0;
     $(".middleContent").load("/html/explore/peopleMenu.html");
 }
 
 
+
 function peopleProfilClicked(){
     $(".middleContent").load("/html/explore/peopleProfil.html");
 }
+
+
 
 function setHeight2(){
     $(".people").height((document.getElementById('peopleProfil').offsetWidth)/3.5);
     $(".imgpeople").width((document.getElementById('peopleProfil').offsetWidth)/3.5); 
     $(".imgpeople").height((document.getElementById('peopleProfil').offsetWidth)/3.5);
 }
+
+
+
 var test1 = (document.getElementById('peopleProfil').offsetWidth);
+
 
 function peopleMenuClicked(){
     $(".middleContent").load("/html/explore/people.html");
     peopleStatus = 1;
 }
+
+
+
 function openProfilFoto(){
     $(".popupMiddle").load("/html/explore/profilFotoDetail.html");
     document.getElementById('popupMiddle').style.zIndex =20;
     document.getElementById('back').style.opacity =0;
 }
+
+
+
 function peopleFotoClicked(){
      $(".middleContent").load("/html/explore/profilFotoMenu.html");
 }
+
+
+
 function setHeightFoto(){
     $(".foto").height((document.getElementById('fotoWidth').offsetWidth));
 }
