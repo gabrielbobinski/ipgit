@@ -225,9 +225,6 @@ function filterClicked(){
             document.getElementById('filterButton').src ="/images/elements/filter2.png";
             document.getElementById('closetButton').src ="/images/elements/closet.png";
             $(".popupLinks").load("/html/filter.html");
-            //document.getElementById('popupLinks2').style.height ='60%';
-            //document.getElementById('popupLinks2').style.zIndex =20;
-            //document.getElementById('popupLinks').style.zIndex =0;
         
             fl=2;
             cl=1;
@@ -236,22 +233,19 @@ function filterClicked(){
     else{
             document.getElementById('filterButton').src ="/images/elements/filter.png";
             $(".popupLinks").load("/html/leer.html");
-            //document.getElementById('popupLinks2').style.height ='0%';
+        
             fl=1;
-            //document.getElementById('popupLinks2').style.zIndex =0;
+        
     }
         
 };
 
 function closetClicked(){
         if(cl===1){
-            //document.getElementById('popupLinks2').style.height ='0%';
+            
             document.getElementById('closetButton').src ="/images/elements/closet2.png";
             document.getElementById('filterButton').src ="/images/elements/filter.png";
-            //document.getElementById('popupLinks').style.zIndex =20;
-            //document.getElementById('popupLinks2').style.zIndex =0;
-
-            
+        
             $(".popupLinks").load("/html/closet.html");
             
             cl=2;
@@ -263,7 +257,6 @@ function closetClicked(){
             document.getElementById('closetButton').src ="/images/elements/closet.png";
             $(".popupLinks").load("/html/leer.html");
             cl=1;
-            //document.getElementById('popupLinks').style.zIndex =0;
     }
 };
 
@@ -341,9 +334,6 @@ function filterClicked2(){
             document.getElementById('filterButton').src ="/images/elements/filter2.png";
             document.getElementById('closetButton').src ="/images/elements/closet.png";
             $(".popupLinks").load("/html/filter.html");
-            //document.getElementById('popupLinks2').style.height ='60%';
-            //document.getElementById('popupLinks2').style.zIndex =20;
-            //document.getElementById('popupLinks').style.zIndex =0;
         
             fl=2;
             cl=1;  
