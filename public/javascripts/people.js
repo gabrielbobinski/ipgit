@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+var peopleStatus =0;
    
 function peopleClicked(){
     document.getElementById('shopleiste').style.backgroundColor = "transparent";
@@ -16,6 +17,15 @@ function peopleClicked(){
     document.getElementById('rewardsleiste').style.color = "#585858";
 
     localStorage.setItem("actualPage", 'explore');
+    
+    if(peopleStatus===0){
+        $(".middleContent").load("/html/explore/peopleMenu.html");
+    }else{
+        $(".middleContent").load("/html/explore/people.html");
+    }
+    
+    
+    
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     
@@ -29,6 +39,12 @@ function peopleClicked(){
     $(".filterContent").load("/html/filterPeople.html");
     
 };
+
+function peopleZuruck(){
+    peopleStatus =0;
+    $(".middleContent").load("/html/explore/peopleMenu.html");
+}
+
 
 function peopleProfilClicked(){
     $(".middleContent").load("/html/explore/peopleProfil.html");
