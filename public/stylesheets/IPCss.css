@@ -569,7 +569,7 @@ div.filterAuswahl:hover{
     font-size:25px;
     color: #585858;
     background-color: rgba(0, 0, 0, 0.2);
-    position: absolute;
+    position: relative;
     top: 60%;
     width: 250px;
     left: 50%;
@@ -585,8 +585,8 @@ div.filterAuswahl:hover{
     font-size:25px;
     color: #585858;
     background-color: rgba(0, 0, 0, 0.2);
-    position: absolute;
-    top: 50%;
+    position: relative;
+    margin-top: 5%;
     width: 250px;
     left: 50%;
     margin-left: -125px;
