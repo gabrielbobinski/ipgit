@@ -569,9 +569,9 @@ div.filterAuswahl:hover{
     color: #585858;
     background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 45%;
-    width: 200px;
-    left: 5%;
+    top: 60%;
+    width: 250px;
+    left: 8%;
     padding-top:2px;
     float:left;
 
@@ -583,9 +583,9 @@ div.filterAuswahl:hover{
     color: #585858;
     background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 45%;
-    width: 200px;
+    top: 60%;
+    width: 250px;
     padding-top:2px;
     float: right;
-    right:5%;
+    right:8%;
 }
