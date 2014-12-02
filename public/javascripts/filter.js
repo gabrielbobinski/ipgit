@@ -249,6 +249,8 @@ function shopMenuNeu(){
     categoriesWomenStatus = 0;
     categoriesUnikateStatus = 0;
     categoriesNeuStatus = 1;
+    
+    $(".filterContent").load("/html/filterShop.html");
 }
 
 
