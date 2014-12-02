@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+var shopStatus = 0;
 
 function shopClicked(){
     document.getElementById('shopleiste').style.backgroundColor = " #585858";
@@ -18,9 +18,19 @@ function shopClicked(){
     
     localStorage.setItem("actualPage", 'explore');
     
-    $(".middleContent").load("/html/explore/shopMenu.html");
+    if(shopStatus===0){
+        $(".middleContent").load("/html/explore/shopMenu.html");
+        shopStatus =1;
+    }else{
+        $(".middleContent").load("/html/explore/shop.html");
+        
+    }
+        
+        
+        
+        
     document.getElementById('popupMiddle').style.zIndex =1;
-     $(".popupMiddle").load("/html/leer.html");
+    $(".popupMiddle").load("/html/leer.html");
      
     audio.pause();           
     p=1;
@@ -28,6 +38,11 @@ function shopClicked(){
     filterStatus = 1;
     
     $(".filterContent").load("/html/filterShop.html");
+}
+
+function shopZuruck(){
+    shopStatus =0;
+    $(".middleContent").load("/html/explore/shopMenu.html");
 }
 
 function coverScrollShop(){
