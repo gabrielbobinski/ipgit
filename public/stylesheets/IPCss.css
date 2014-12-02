@@ -570,7 +570,7 @@ div.filterAuswahl:hover{
     color: #585858;
     background-color: rgba(0, 0, 0, 0.2);
     position: relative;
-    top: 50%;
+    top: 40%;
     width: 250px;
     left: 50%;
     margin-left: -125px;
@@ -586,7 +586,7 @@ div.filterAuswahl:hover{
     color: #585858;
     background-color: rgba(0, 0, 0, 0.2);
     position: relative;
-    margin-top: 3%;
+    margin-top: 4%;
     width: 250px;
     left: 50%;
     margin-left: -125px;
