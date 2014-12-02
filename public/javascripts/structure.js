@@ -409,3 +409,8 @@ function deleteArtikelWarenkorb(){
     $(".popupMiddle").load("/html/deletWarningCloset.html");
     document.getElementById('popupMiddle').style.zIndex =20;
 }
+
+function closeDeleteWarning(){
+    $(".popupMiddle").load("/html/leer.html");
+    document.getElementById('popupMiddle').style.zIndex =0;
+}
