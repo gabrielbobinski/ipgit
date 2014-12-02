@@ -166,6 +166,75 @@ function categoriesNeuFunktion(){
     }
 }
 
+//                      Hier Die Funktionen für Product-Type
+
+
+var productTypeAsecoiresStatus = 0;
+
+function productTypeAsecoiresFunktion(){
+    if(productTypeAsecoiresStatus===0){
+        document.getElementById("asecoires").style.backgroundImage= "url('/images/elements/tickKastenSelect.png')";
+        productTypeAsecoiresStatus = 1;
+    }else{
+        document.getElementById("asecoires").style.backgroundImage = "url('/images/elements/tickKasten.png')";
+        productTypeAsecoiresStatus = 0;
+    }
+}
+
+var productTypeJackenStatus = 0;
+
+function productTypeJackenFunktion(){
+    if(productTypeJackenStatus===0){
+        document.getElementById("jacken").style.backgroundImage= "url('/images/elements/tickKastenSelect.png')";
+        productTypeJackenStatus = 1;
+    }else{
+        document.getElementById("jacken").style.backgroundImage = "url('/images/elements/tickKasten.png')";
+        productTypeJackenStatus = 0;
+    }
+}
+
+var productTypeHosenStatus = 0;
+
+function productTypeHosenFunktion(){
+    if(productTypeHosenStatus===0){
+        document.getElementById("hosen").style.backgroundImage= "url('/images/elements/tickKastenSelect.png')";
+        productTypeHosenStatus = 1;
+    }else{
+        document.getElementById("hosen").style.backgroundImage = "url('/images/elements/tickKasten.png')";
+        productTypeHosenStatus = 0;
+    }
+}
+
+
+var productTypeShirtsStatus = 0;
+
+function productTypeShirtsFunktion(){
+    if(productTypeShirtsStatus===0){
+        document.getElementById("shirts").style.backgroundImage= "url('/images/elements/tickKastenSelect.png')";
+        productTypeShirtsStatus = 1;
+    }else{
+        document.getElementById("shirts").style.backgroundImage = "url('/images/elements/tickKasten.png')";
+        productTypeShirtsStatus = 0;
+    }
+}
+
+var productTypeSkirtsStatus = 0;
+
+function productTypeSkirtsFunktion(){
+    if(productTypeSkirtsStatus===0){
+        document.getElementById("skirts").style.backgroundImage= "url('/images/elements/tickKastenSelect.png')";
+        productTypeSkirtsStatus = 1;
+    }else{
+        document.getElementById("skirts").style.backgroundImage = "url('/images/elements/tickKasten.png')";
+        productTypeSkirtsStatus = 0;
+    }
+}
+
+
+
+
+
+
 
 
 /*
