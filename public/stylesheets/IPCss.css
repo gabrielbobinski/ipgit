@@ -550,7 +550,7 @@ div.filterAuswahl:hover{
 
 .deleteWarning{
     
-    background-color: rgba(240, 240, 240, 0.95);
+    background-color: rgba(245, 245, 245, 0.95);
     position: absolute;
     width: 100%;
     height: 30%;
@@ -568,7 +568,7 @@ div.filterAuswahl:hover{
     font-family: muli;
     font-size:25px;
     color: #585858;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.05);
     position: relative;
     top: 20%;
     width: 250px;
@@ -584,7 +584,7 @@ div.filterAuswahl:hover{
     font-family: muli;
     font-size:25px;
     color: #585858;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.05);
     position: relative;
     top: 20%;
     width: 250px;
