@@ -407,4 +407,5 @@ function adeleteClosetArtikel(){
 
 function deleteArtikelWarenkorb(){
     $(".popupMiddle").load("/html/deletWarningCloset.html");
+    document.getElementById('popupMiddle').style.zIndex =20;
 }
