@@ -406,5 +406,5 @@ function adeleteClosetArtikel(){
 
 
 function deleteArtikelWarenkorb(){
-    $(".artikelWarenkorb").load("/html/deletWaningCloset.html");
+    $(".popupMiddle").load("/html/deletWarningCloset.html");
 }
