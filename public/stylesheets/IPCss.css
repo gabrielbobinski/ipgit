@@ -568,9 +568,9 @@ div.filterAuswahl:hover{
     font-size:25px;
     color: #585858;
     background-color: rgba(0, 0, 0, 0.2);
-    position:relative;
+    position: absolute;
     top: 45%;
-    width: 250px;
+    width: 200px;
     left: 5%;
     padding-top:2px;
     float:left;
@@ -582,10 +582,10 @@ div.filterAuswahl:hover{
     font-size:25px;
     color: #585858;
     background-color: rgba(0, 0, 0, 0.2);
-    position:relative;
+    position: absolute;
     top: 45%;
-    width: 250px;
-    margin-left:2px;
+    width: 200px;
     padding-top:2px;
-    float: left
+    float: right;
+    right:5%;
 }
