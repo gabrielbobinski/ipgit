@@ -381,6 +381,31 @@ function shopMenuJungeDesigner(){
     
 }
 
+function shopMenuJungeNahe(){
+    filterShopCategoriesStatus = 0;
+    filterShopProductTypeStatus = 0;
+    filterShopDesignerStatus = 0;
+    filterShopSizeStatus = 0;
+    ilterShopColorStatus = 0;
+    filterShopPriceStatus = 0;
+    filterShopLocationStatus = 1;
+    
+    categoriesSaleStatus = 0;
+    categoriesMenStatus = 0;
+    categoriesWomenStatus = 0;
+    categoriesUnikateStatus = 0;
+    categoriesNeuStatus = 0;
+    
+    productTypeAsecoiresStatus = 0;
+    productTypeJackenStatus = 0;
+    productTypeHosenStatus = 0;
+    productTypeShirtsStatus = 0;
+    productTypeSkirtsStatus = 0;
+    
+    $(".filterContent").load("/html/filterShop.html");
+    
+}
+
 
 /*
 filterShopCategoriesStatus = 0;
