@@ -253,6 +253,91 @@ function shopMenuNeu(){
     $(".filterContent").load("/html/filterShop.html");
 }
 
+function shopMenuSale(){
+    filterShopCategoriesStatus = 1;
+    filterShopProductTypeStatus = 0;
+    filterShopDesignerStatus = 0;
+    filterShopSizeStatus = 0;
+    ilterShopColorStatus = 0;
+    filterShopPriceStatus = 0;
+    filterShopLocationStatus = 0;
+    categoriesSaleStatus = 1;
+    categoriesMenStatus = 0;
+    categoriesWomenStatus = 0;
+    categoriesUnikateStatus = 0;
+    categoriesNeuStatus = 0;
+    
+    $(".filterContent").load("/html/filterShop.html");
+}
+
+function shopMenuMen(){
+    filterShopCategoriesStatus = 1;
+    filterShopProductTypeStatus = 0;
+    filterShopDesignerStatus = 0;
+    filterShopSizeStatus = 0;
+    ilterShopColorStatus = 0;
+    filterShopPriceStatus = 0;
+    filterShopLocationStatus = 0;
+    categoriesSaleStatus = 0;
+    categoriesMenStatus = 1;
+    categoriesWomenStatus = 0;
+    categoriesUnikateStatus = 0;
+    categoriesNeuStatus = 0;
+    
+    $(".filterContent").load("/html/filterShop.html");
+}
+
+function shopMenuWomen(){
+    filterShopCategoriesStatus = 1;
+    filterShopProductTypeStatus = 0;
+    filterShopDesignerStatus = 0;
+    filterShopSizeStatus = 0;
+    ilterShopColorStatus = 0;
+    filterShopPriceStatus = 0;
+    filterShopLocationStatus = 0;
+    categoriesSaleStatus = 0;
+    categoriesMenStatus = 0;
+    categoriesWomenStatus = 1;
+    categoriesUnikateStatus = 0;
+    categoriesNeuStatus = 0;
+    
+    $(".filterContent").load("/html/filterShop.html");
+}
+
+function shopMenuUnikate(){
+    filterShopCategoriesStatus = 1;
+    filterShopProductTypeStatus = 0;
+    filterShopDesignerStatus = 0;
+    filterShopSizeStatus = 0;
+    ilterShopColorStatus = 0;
+    filterShopPriceStatus = 0;
+    filterShopLocationStatus = 0;
+    categoriesSaleStatus = 0;
+    categoriesMenStatus = 0;
+    categoriesWomenStatus = 0;
+    categoriesUnikateStatus = 1;
+    categoriesNeuStatus = 0;
+    
+    $(".filterContent").load("/html/filterShop.html");
+}
+
+function shopMenuJungeDesigner(){
+    filterShopCategoriesStatus = 0;
+    filterShopProductTypeStatus = 0;
+    filterShopDesignerStatus = 0;
+    filterShopSizeStatus = 0;
+    ilterShopColorStatus = 0;
+    filterShopPriceStatus = 0;
+    filterShopLocationStatus = 0;
+    categoriesSaleStatus = 0;
+    categoriesMenStatus = 0;
+    categoriesWomenStatus = 0;
+    categoriesUnikateStatus = 0;
+    categoriesNeuStatus = 0;
+    
+    $(".filterContent").load("/html/filterShop.html");
+}
+
 
 /*
 filterShopCategoriesStatus = 0;
