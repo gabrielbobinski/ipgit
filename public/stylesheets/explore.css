@@ -778,7 +778,13 @@ div.border:hover{
     height: 38px;
     background-color: white;
     background-image: url('/images/elements/back.png');
-    background-size: cover;   
+    background-size: cover; 
+    
+      box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+  
+    border:20px solid #424242;  
 }
 
 .artikelDetail{
