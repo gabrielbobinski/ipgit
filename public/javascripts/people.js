@@ -29,8 +29,6 @@ function peopleClicked(){
     document.getElementById('popupMiddle').style.zIndex =1;
      $(".popupMiddle").load("/html/leer.html");
     
-    $(".middleContent").load("/html/explore/peopleMenu.html");
-
     audio.pause();           
     p=2;
   
