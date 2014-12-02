@@ -59,10 +59,10 @@ function showroomProfilClicked(){
     localStorage.setItem("actualPage", 'showroomProfil'); 
     $(".middleContent").load("/html/explore/showroomProfil.html");
     //wk =1;
-    showroomStatus =1;
 };
 
     
 function showroomMenu1(){
      $(".middleContent").load("/html/explore/showroom.html");
+     showroomStatus =1;
 }
