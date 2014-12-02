@@ -578,7 +578,9 @@ div.filterAuswahl:hover{
     margin-top: 2%;
 
 }
-
+div.abbrechenCloset:hover{
+    rgba(0, 0, 0, 0.15);
+}
 .okCloset{
 
     font-family: muli;
@@ -592,4 +594,7 @@ div.filterAuswahl:hover{
     margin-left: -125px;
     padding-top:2px;
 
+}
+div.okCloset:hover{
+    rgba(0, 0, 0, 0.15);
 }
