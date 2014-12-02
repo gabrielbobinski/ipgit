@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+var showroomStatus = 0;
 
 function showroomClicked(){
     document.getElementById('shopleiste').style.backgroundColor = "transparent";
@@ -16,10 +17,16 @@ function showroomClicked(){
     document.getElementById('rewardsleiste').style.color = "#585858";
 
     localStorage.setItem("actualPage", 'explore');
+    
+    if(showroomStatus===0){
+        $(".middleContent").load("/html/explore/showroomMenu.html");
+        showroomStatus =1;
+    }else{
+        $(".middleContent").load("/html/explore/showroom.html");
+    }
+    
     document.getElementById('popupMiddle').style.zIndex =1;
-     $(".popupMiddle").load("/html/leer.html");
-     
-    $(".middleContent").load("/html/explore/showroomMenu.html");
+    $(".popupMiddle").load("/html/leer.html");
 
     audio.pause();           
     p=1;
@@ -27,6 +34,11 @@ function showroomClicked(){
     $(".filterContent").load("/html/filterShowroom.html");
     filterStatus = 3;
 };
+
+function showroomZuruck(){
+    showroomStatus =0;
+    $(".middleContent").load("/html/explore/showroomMenu.html");
+}
 
 function coverScrollShowroom(){
     $('#showroom4').animate({
