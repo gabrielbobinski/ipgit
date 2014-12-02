@@ -45,7 +45,7 @@ function feedClicked(){
     audio.pause();           
     //document.getElementById('musicButton').src ="Pictures/musicicon.png";
     document.getElementById('popupMiddle').style.zIndex =1;
-     $(".popupMiddle").load("/html/leer.html");
+    $(".popupMiddle").load("/html/leer.html");
     p=1;
     
     filterStatus = 5;
