@@ -401,6 +401,8 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
 
 function adeleteClosetArtikel(){
     document.getElementById("artikelWarenkorb").remove();
+    $(".popupMiddle").load("/html/leer.html");
+    document.getElementById('popupMiddle').style.zIndex =0;
 }
 
 
