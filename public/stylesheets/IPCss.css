@@ -579,7 +579,7 @@ div.filterAuswahl:hover{
 
 }
 div.abbrechenCloset:hover{
-    rgba(0, 0, 0, 0.15);
+    background-color:rgba(0, 0, 0, 0.15);
 }
 .okCloset{
 
@@ -596,5 +596,5 @@ div.abbrechenCloset:hover{
 
 }
 div.okCloset:hover{
-    rgba(0, 0, 0, 0.15);
+    background-color:rgba(0, 0, 0, 0.15);
 }
