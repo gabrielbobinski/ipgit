@@ -780,12 +780,12 @@ div.border:hover{
     background-image: url('/images/elements/back.png');
     background-size: cover; 
     
-    //  box-sizing:border-box;
-    //-moz-box-sizing:border-box;
-    //-webkit-box-sizing:border-box;
+      box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
   
-    //border: 1px solid #424242;
-    //border-radius: 1000px;
+    border: 1px solid #424242;
+    border-radius: 1000;
 }
 
 .artikelDetail{
