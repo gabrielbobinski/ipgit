@@ -400,11 +400,11 @@ NodeList.prototype.remove = HTMLCollection.prototype.remove = function() {
 
 
 function adeleteClosetArtikel(){
-    document.getElementById("artikelCloset").remove();
+    document.getElementById("artikelWarenkorb").remove();
 }
 
 
 
 function deleteArtikelWarenkorb(){
-    $(".artikelCloset").load("/html/deletWaningCloset.html");
+    $(".artikelWarenkorb").load("/html/deletWaningCloset.html");
 }
