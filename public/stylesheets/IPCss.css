@@ -548,7 +548,7 @@ div.filterAuswahl:hover{
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.closetBackground{
+.deleteWarning{
     
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
