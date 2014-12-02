@@ -335,7 +335,9 @@ function shopMenuJungeDesigner(){
     categoriesUnikateStatus = 0;
     categoriesNeuStatus = 0;
     
+    filterShopProductTypeStatus =1;
     $(".filterContent").load("/html/filterShop.html");
+    
 }
 
 
