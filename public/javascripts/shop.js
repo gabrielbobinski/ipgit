@@ -20,10 +20,8 @@ function shopClicked(){
     
     if(shopStatus===0){
         $(".middleContent").load("/html/explore/shopMenu.html");
-        shopStatus =1;
     }else{
         $(".middleContent").load("/html/explore/shop.html");
-        
     }
         
         
@@ -61,6 +59,7 @@ function shopArtikel(){
 
 function shopBanner1(){
     $(".middleContent").load("/html/explore/shop.html");
+    shopStatus =1;
 }
 
 function artikelDetail(){

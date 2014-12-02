@@ -20,7 +20,6 @@ function showroomClicked(){
     
     if(showroomStatus===0){
         $(".middleContent").load("/html/explore/showroomMenu.html");
-        showroomStatus =1;
     }else{
         $(".middleContent").load("/html/explore/showroom.html");
     }
@@ -59,8 +58,8 @@ function showroomProfilClicked(){
   
     localStorage.setItem("actualPage", 'showroomProfil'); 
     $(".middleContent").load("/html/explore/showroomProfil.html");
-    wk =1;
-    
+    //wk =1;
+    showroomStatus =1;
 };
 
     
