@@ -181,7 +181,7 @@
     text-align: center;
     width: 20.14%;
     height: 60%;
-    overflow: scroll;
+    overflow: hidden scroll;
     z-index: 21;
     
 }
@@ -193,6 +193,7 @@
     height: 100%;
     opacity: 0.6;
     text-align: center;
+    overflow: hidden;
     
 }
 .warenkorbBackground{
