@@ -574,6 +574,7 @@ div.filterAuswahl:hover{
     width: 250px;
     left: 5%;
     padding:2px;
+    float:left;
 
 }
 
@@ -588,4 +589,5 @@ div.filterAuswahl:hover{
     width: 250px;
     right: 5%;
     padding:2px;
+    float: right
 }
