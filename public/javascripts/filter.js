@@ -234,7 +234,22 @@ function productTypeSkirtsFunktion(){
 
 
 
+                //              shopMenuStatus
 
+function shopMenuNeu(){
+    filterShopCategoriesStatus = 1;
+    filterShopProductTypeStatus = 0;
+    filterShopDesignerStatus = 0;
+    filterShopSizeStatus = 0;
+    ilterShopColorStatus = 0;
+    filterShopPriceStatus = 0;
+    filterShopLocationStatus = 0;
+    categoriesSaleStatus = 0;
+    categoriesMenStatus = 0;
+    categoriesWomenStatus = 0;
+    categoriesUnikateStatus = 0;
+    categoriesNeuStatus = 1;
+}
 
 
 /*
