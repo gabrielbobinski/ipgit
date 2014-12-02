@@ -59,6 +59,7 @@ var test1 = (document.getElementById('peopleProfil').offsetWidth);
 
 function peopleMenuClicked(){
     $(".middleContent").load("/html/explore/people.html");
+    peopleStatus = 1;
 }
 function openProfilFoto(){
     $(".popupMiddle").load("/html/explore/profilFotoDetail.html");
