@@ -90,3 +90,6 @@ function setHeightFoto(){
     $(".foto").height((document.getElementById('fotoWidth').offsetWidth));
 }
 
+function profilShowroomClicked(){
+    $(".middleContent").load("/html/explore/profilShowrooms.html");
+}

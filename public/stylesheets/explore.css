@@ -1096,7 +1096,7 @@ div.outfitMiddle:hover{
     background-color: rgba(0, 0, 0, 0.04);
 }
 div.outfiMiddleBackground:hover{
-
+    background-color: rgba(0, 0, 0, 0.06);
     cursor: url(/images/elements/herzCursor2.gif), pointer;
 }
 
@@ -1119,4 +1119,17 @@ div.outfiMiddleBackground:hover{
 }
 img.imageRechts:hover{
     cursor: url(/images/elements/herzCursor2.gif), pointer;
+}
+
+.peopleShowroom{
+    position: relative;
+    width: 48.5%;
+    height: 25%;
+    margin-top: 1%;
+    margin-left:1%;
+    background-color: rgba(0, 0, 0, 0.1);
+    float: left;
+}
+div.peopleShowroom:hover{
+    background-color: rgba(0, 0, 0, 0.2);
 }
