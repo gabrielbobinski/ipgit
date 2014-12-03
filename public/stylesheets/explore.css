@@ -789,7 +789,7 @@ div.border:hover{
     border-radius: 1000;
 }
 div.back:hover{
-    background-color: rgba(0, 0, 0, 0.06);
+    background-color: rgba(0, 0, 0, 0.01);
 }
 
 .artikelDetail{
@@ -976,7 +976,7 @@ div.back:hover{
     margin-top: 15%;
 }
 div.showroomE:hover{
-    opacity: 0.8;
+    opacity: 0.85;
 }
 .banner{
     position: absolute;
@@ -1092,7 +1092,7 @@ div.outfitMiddle:hover{
     background-color: rgba(0, 0, 0, 0.05);
 }
 div.outfiMiddleBackground:hover{
-    background-color: rgba(0, 0, 0, 0.00);
+    background-color: rgba(0, 0, 0, 0.01);
     cursor: url(/images/elements/herzCursor2.gif), pointer;
 }
 

@@ -159,6 +159,8 @@ header{
     z-index: 9;   
 }
 
+div.middleContent{}
+
 .showroom{
     position: relative;
     width: 99.5%;
