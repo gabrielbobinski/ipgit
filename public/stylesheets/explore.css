@@ -183,6 +183,7 @@
     height: 60%;
     overflow: scroll;
     z-index: 21;
+    -webkit-overflow-scrolling: touch;
     
 }
 .filterBackground{
@@ -215,6 +216,7 @@
     width: 20.14%;
     height: 60%;
     overflow: scroll;  
+    -webkit-overflow-scrolling: touch;
 }
 
 .close{
@@ -286,7 +288,7 @@
     right: 0.5%;
     width: 20.14%;
     height: 60%;
-    
+    -webkit-overflow-scrolling: touch;
 }
 
 .nachrichtBackground{
