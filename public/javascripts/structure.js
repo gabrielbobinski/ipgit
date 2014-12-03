@@ -418,3 +418,8 @@ function closeDeleteWarning(){
     $(".popupMiddle").load("/html/leer.html");
     document.getElementById('popupMiddle').style.zIndex =0;
 }
+
+function like(){
+    document.getElementById('herz').src ="/images/elements/herzRot.png";
+
+}

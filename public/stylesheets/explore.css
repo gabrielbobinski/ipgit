@@ -167,6 +167,7 @@
     position: absolute;
     top:3px;
     right: 5%;
+    
 }
 .pause{
     width: 20%;
@@ -706,7 +707,7 @@ div.artikelWarenkorb:hover{
 .chat{
     position: relative;
     margin: 2%;
-    margin-top: 8%;
+    margin-top: 5%;
     float: top;
     width: 96%;
     height: 15%;
@@ -788,7 +789,7 @@ div.border:hover{
     -webkit-box-sizing:border-box;
   
     border: 1px solid #424242;
-    border-radius: 1000;
+
 }
 div.back:hover{
     background-color: rgba(0, 0, 0, 0.01);
@@ -1104,4 +1105,13 @@ div.outfiMiddleBackground:hover{
     width: 100%;
     height:5%;
     float: left;
+}
+
+.imageRechts{
+    position: relative; 
+    height:100%;
+    float: right;
+}
+img.imageRechts:hover{
+    cursor: url(/images/elements/herzCursor2.gif), pointer;
 }
