@@ -261,7 +261,7 @@
     width: 20.14%;
     height: 60%;
     overflow: scroll;
-    
+    -webkit-overflow-scrolling: touch;
 }
 
 .closetBackground{

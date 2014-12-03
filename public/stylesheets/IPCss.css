@@ -156,10 +156,9 @@ header{
     font-family: muli;
     background-color: transparent;
     overflow: visible scroll;  
-    z-index: 9;   
+    z-index: 9; 
+    -webkit-overflow-scrolling: touch;
 }
-
-div.middleContent{}
 
 .showroom{
     position: relative;
@@ -295,20 +294,6 @@ div.middleContent{}
     height: 60%;
     z-index: 20;
     
-    
-}
-
-.popupLinks2{
-    position: fixed;
-    top: 39%;
-    left: 0.5%;
-    background-size: cover;
-    background-color: transparent;
-    opacity: 1;
-    width: 20.14%;
-    height: 0%;
-    z-index: 0;
-    overflow: hidden;
     
 }
 
