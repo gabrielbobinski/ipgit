@@ -1071,30 +1071,34 @@ div.foto:hover{
 
 .outfitMiddle{
     position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-top: -150px;
-    margin-left: -100px;
-    width: 200px;
-    height: 300px;
+    left: 5%;
+    top: 10%;
+
+    width: 60px;
+    height: 90px;
     background-color: transparent;
     background-position: center;
     background-size: cover;
     border-style: solid;
     border-color: white;
-    border-width: 2px;
+    border-width: 1px;
 }
 div.outfitMiddle:hover{
-    opacity: 0.1;
+    left: 5%;
+    top: 10%;
+    //margin-top: -150px;
+    //margin-left: -100px;
+    width: 200px;
+    height: 300px;
 }
 .outfiMiddleBackground{
     position: absolute;
     width: 100%;
     height: 95%;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.04);
 }
 div.outfiMiddleBackground:hover{
-    background-color: rgba(0, 0, 0, 0.01);
+
     cursor: url(/images/elements/herzCursor2.gif), pointer;
 }
 
