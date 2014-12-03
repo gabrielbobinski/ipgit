@@ -300,12 +300,9 @@ function drop(){
 };
 
 function disableBodyScroll(){
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     
-    }else
-    {
     document.getElementById('middelContent').style.overflow = 'hidden';
-    }
+    
 }
 
 function enableBodyScroll(){
