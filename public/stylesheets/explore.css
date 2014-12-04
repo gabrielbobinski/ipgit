@@ -520,17 +520,18 @@ img.artikelrahmen:hover{
 }
 
 .coverSchrift{
-    font-family: DubielPlain;
-    font-size: 130px;
+    //font-family: DubielPlain;
+    font-family: Playfair Display;
+    font-size: 100px;
     opacity: 0.8;
     position: absolute;
     text-align: center;
     color:black;
     z-index: 9;
     top: 50%;
-    margin-top: -50px;
+    margin-top: -70px;
     left:50%;
-    margin-left: -300px;
+    margin-left: -270px;
 }
 
 .artikelSchrift{
