@@ -924,9 +924,10 @@ div.back:hover{
 .hinzufugen{
     width: 200px;
     height: 25px;
-    position: relative;
-    top: 85%;
-    left: 2%;
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 0.5%;
     text-align: center;
     background-color: transparent;
     float: left;
@@ -935,9 +936,10 @@ div.back:hover{
 .hinzufugen2{
     width: 180px;
     height: 25px;
-    position: relative;
-    top: 85%;
-    right: 2%;
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    right: 0%;
     text-align: center;
     background-color: transparent;
     float: right;
