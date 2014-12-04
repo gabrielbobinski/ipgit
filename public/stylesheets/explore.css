@@ -927,11 +927,37 @@ div.back:hover{
     position: absolute;
     top: 50%;
     margin-top: -12px;
-    left: 0.5%;
+    left: 1%;
     text-align: center;
     background-color: transparent;
     float: left;
     
+}
+.hinzufugenClickRechts{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 10;
+    float: right:
+}
+div.hinzufugenClickRechts:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.hinzufugenClickLinks{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 10;
+    float: left:
+
+}
+div.hinzufugenClickLinks:hover{
+    background-color: rgba(0, 0, 0, 0.08);
 }
 .hinzufugen2{
     width: 180px;
