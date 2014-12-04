@@ -91,5 +91,5 @@ function setHeightFoto(){
 }
 
 function profilShowroomClicked(){
-    $(".middleContent").load("/html/explore/profilShowrooms.html");
+    $(".middleContent").load("/html/explore/peopleShowrooms.html");
 }
