@@ -704,10 +704,13 @@ div.artikelWarenkorb:hover{
 .closetRahmen{
     margin: 0 auto;
     background-color: transparent;
-    position: absolute;
+    position: relative;
     width: 99%;
     height: 100%;
-    top: 17%
+    top: 25%
+    //left: 50%;
+    //margin-left: -49.5%;
+
 }
 
 .scrollsauber{
