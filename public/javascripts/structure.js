@@ -423,3 +423,12 @@ function like(){
     document.getElementById('herz').src ="/images/elements/herzRot.png";
 
 }
+
+function closetKategorie(){
+    
+    $(".closetRahmen").load("/html/closetKategorie.html");
+}
+
+function closetMenu(){
+    $(".closetRahmen").load("/html/closetMenu.html");
+}

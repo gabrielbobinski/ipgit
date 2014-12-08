@@ -700,6 +700,16 @@ div.artikelWarenkorb:hover{
     height: 100%;
     top: -5%
 }
+
+.closetRahmen{
+    margin: 0 auto;
+    background-color: transparent;
+    position: absolute;
+    width: 99%;
+    height: 100%;
+    top: 17%
+}
+
 .scrollsauber{
     width: 100%;
     height: 10%;

@@ -456,15 +456,16 @@ div.schriftPopupWarenkorb:hover{
 }
 .filterKategorie{
     width:98%;
-    height: 10%;
+    height: 12%;
     position: relative;
     margin-top: 3px;
-    background-color: rgba(0, 0, 0, 0.2);
+    //background-color: rgba(0, 0, 0, 0.2);
     left: 50%;
     margin-left: -49%;
 }
 div.filterKategorie:hover{
-    background-color: rgba(0, 0, 0, 0.3);
+    //background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .filterKategorieSchrift{
     top: 50%;
@@ -481,7 +482,18 @@ div.filterKategorie:hover{
     left: -10%;
     
 }
-
+.closetKetegorie{
+    width:98%;
+    height: 9%;
+    position: relative;
+    margin-top: 3px;
+    //background-color: rgba(0, 0, 0, 0.2);
+    left: 50%;
+    margin-left: -49%;
+}
+div.closetKetegorie:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
 .filterContent{
     margin: 0 auto;
     background-color: transparent;
@@ -584,4 +596,15 @@ div.abbrechenCloset:hover{
 }
 div.okCloset:hover{
     background-color:rgba(0, 0, 0, 0.15);
+}
+
+.closetAuswahl{
+    width:98%;
+    height: 9%;
+    float:left;
+    position: relative;
+    margin-top: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: 50%;
+    margin-left: -49%;
 }
