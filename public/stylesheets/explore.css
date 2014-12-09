@@ -770,6 +770,16 @@ div.chat:hover{
 div.border:hover{
    background-color: rgba(0, 0, 0, 0.07);
 }
+
+.border2{
+   border-radius: 0px;
+   background-color: rgba(0, 0, 0, 0.1);
+    
+}
+div.border2:hover{
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
 .borderWhite{
     box-sizing:border-box;
     -moz-box-sizing:border-box;

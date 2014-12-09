@@ -97,3 +97,7 @@ function profilShowroomClicked(){
 function profilKleiderschrank(){
     $(".middleContent").load("/html/explore/profilKleiderschrank.html");
 }
+
+function profilKleiderschrank2(){
+    $(".middleContent").load("/html/explore/profilKleiderschrank2.html");
+}
