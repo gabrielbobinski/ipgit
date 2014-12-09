@@ -93,3 +93,7 @@ function setHeightFoto(){
 function profilShowroomClicked(){
     $(".middleContent").load("/html/explore/peopleShowrooms.html");
 }
+
+function profilKleiderschrank(){
+    $(".middleContent").load("/html/explore/profilKleiderschrank.html");
+}

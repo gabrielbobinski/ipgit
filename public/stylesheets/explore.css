@@ -1118,10 +1118,10 @@ div.foto:hover{
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-top: -150px;
-    margin-left: -100px;
-    width: 200px;
-    height: 300px;
+    margin-top: -20%;
+    margin-left: -15%;
+    width: 30%;
+    height: 65%;
     background-color: transparent;
     background-position: center;
     background-size: cover;
@@ -1176,4 +1176,14 @@ img.imageRechts:hover{
 }
 div.peopleShowroom:hover{
     background-color: rgba(0, 0, 0, 0.2);
+}
+.borderPx{
+
+   // border-color: #585858;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+  
+    border:2px solid grey;
+
 }

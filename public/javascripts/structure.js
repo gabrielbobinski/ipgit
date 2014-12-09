@@ -432,3 +432,7 @@ function closetKategorie(){
 function closetMenu(){
     $(".closetRahmen").load("/html/closetMenu.html");
 }
+
+function closetOutfits(){
+    $(".closetRahmen").load("/html/closetOutfits.html");
+}
